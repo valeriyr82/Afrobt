@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VIDEOLIST>
+	<VIDEOS>
+			<Video Path="flvs/1.flv"/>
+			<Video Path="flvs/2.flv"/>
+			<Video Path="flvs/3.flv"/>
+			<Video Path="flvs/4.flv"/>
+	</VIDEOS>
+</VIDEOLIST>

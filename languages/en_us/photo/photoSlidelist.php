@@ -1,0 +1,70 @@
+<?php
+$LANG['photoslidelist_title'] = 'New Slidelist';
+$LANG['photoslidelist_my_title'] = 'My Slidelist';
+$LANG['photoslidelist_createby'] = 'Created By';
+$LANG['photoslidelist_postby'] = 'By: ';
+$LANG['photoslidelist_views'] = 'Views: ';
+$LANG['photoslidelist_comments'] = 'Comments: ';
+$LANG['photoslidelist_rating'] = 'Rating: ';
+$LANG['photoslidelist_favorites'] = 'Favorites: ';
+$LANG['photoslidelist_featured'] = 'Featured: ';
+$LANG['photoslidelist_added'] = 'Added: ';
+$LANG['photoslidelist_photos'] = 'Total Photos';
+$LANG['photoslidelist_photo'] = 'Total Photos';
+$LANG['photoslidelist_total_views'] = 'Views';
+$LANG['photoslidelist_view']        = 'View as Slideshow';
+$LANG['photoslidelist_playall'] = 'Play all: ';
+$LANG['photoslidelist_no_records_found'] = 'No Records Found';
+$LANG['photoslidelist_slidelist_title'] = 'Slidelist title';
+$LANG['photoslidelist_no_of_photos'] = 'Number of photos';
+$LANG['photoslidelist_no_of_views'] = 'Number of Views';
+$LANG['photoslidelist_search'] = 'Search';
+$LANG['photoslidelist_show_advanced_filters'] = 'Show Advanced Filters';
+$LANG['photoslidelist_hide_advanced_filters'] = 'Hide Advanced Filters';
+$LANG['photoslidelist_view_photo'] = 'View photo';
+$LANG['photoslidelist_photo_list'] = 'Photo list';
+$LANG['photoslidelist_more_info'] = 'More Info';
+$LANG['photoslidelist_short_by'] = 'Sort by: ';
+$LANG['photoslidelist_title_label'] = 'Title';
+$LANG['photoslidelist_rated_label'] = 'Rated: ';
+$LANG['photoslidelist_tags_label'] = 'Tags: ';
+$LANG['photoslidelist_description_label'] = 'Description:';
+//Music slidelist heading..
+$LANG['photoslidelist_heading_slidelistnew'] = 'New slidelist';
+$LANG['photoslidelist_heading_toprated'] = 'Top Rated';
+$LANG['photoslidelist_heading_mostrecommended'] = 'Most Recommended';
+$LANG['photoslidelist_heading_mostlistened'] = 'Most Listened';
+$LANG['photoslidelist_heading_mostviewed'] = 'Most Viewed';
+$LANG['photoslidelist_heading_mostdiscussed'] = 'Most Discussed';
+$LANG['photoslidelist_heading_mostfavorite'] = 'Most Favorite';
+$LANG['photoslidelist_heading_recentlyviewed'] = 'Recently Viewed';
+$LANG['photoslidelist_heading_my_favorite'] = 'My Favorite Slidelist';
+$LANG['photoslidelist_heading_my_featured'] = 'My Featured Slidelist';
+$LANG['photoslidelist_heading_my_recently_viewed'] = 'My Recently Viewed';
+$LANG['photoslidelist_add_slidelist'] = 'Add Slidelist';
+
+$LANG['photo_playlist_id']		   = 'ID';
+$LANG['photo_playlist_phototitle'] = 'Photo Title';
+
+//MUSIC PLAYLIST ADMIN SIDE LANGUAGE//
+$LANG['photoslidelist_manage_slidelist'] = 'Manage Slidelist';
+$LANG['photoslidelist_admin_view_photo'] = 'View photo';
+$LANG['photoslidelist_set_featured'] = 'Set as Featured';
+$LANG['photoslidelist_remove_featured'] = 'Removed as Featured';
+$LANG['photoslidelist_admin_set_featured'] = 'Are you sure you want to set this slidelist as featured?';
+$LANG['photoslidelist_admin_remove_featured'] = 'Are you sure you want to remove this slidelist as featured?';
+$LANG['photoslidelist_admin_photolist_id'] = 'ID';
+$LANG['photoslidelist_admin_photolist_phototitle'] = 'Song title';
+$LANG['photoslidelist_admin_photolist_norecords_found'] = 'No records found';
+$LANG['photoslidelist_admin_photo_list'] = 'Song list';
+$LANG['photoslidelist_admin_conform_box'] = 'conformation box';
+$LANG['photoslidelist_delete_successfully'] = 'Successfully deleted';
+$LANG['photoslidelist_update_successfully'] = 'Successfully updated';
+$LANG['photoslidelist_manage_comment'] = 'Manage comment';
+$LANG['photoslidelist_manage_slidelist_comment'] = 'Manage slidelist comment';
+$LANG['photoslidelist_edit_label'] = 'Edit';
+$LANG['photoslidelist_create_slidelist_label'] = 'Create slidelist';
+$LANG['photoslidelist_private_label'] = 'Private';
+$LANG['photoslidelist_reset_search']	= 'Reset Filters';
+$LANG['photoslidelist_playall_label'] = 'Play all';
+?>

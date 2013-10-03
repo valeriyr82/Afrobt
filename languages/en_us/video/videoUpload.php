@@ -1,0 +1,137 @@
+<?php
+/**
+ * Language File for videoUpload Interface
+ *
+ *
+ * @category	rayzz
+ * @package		Members
+ **/
+
+$LANG['videoupload_title'] 							= 'Upload Video';
+$LANG['videoupload_edit_title'] 					= 'Edit Video';
+$LANG['videoupload_update'] 						= 'Update';
+$LANG['videoupload_msg_success_updated'] 			= 'Successfully updated';
+$LANG['videoupload_select_album'] 					= '~Choose One~';
+$LANG['videoupload_video_album_id'] 				= 'Video Album';
+$LANG['videoupload_tbl_summary'] 					= 'Video upload table';
+$LANG['videoupload_important'] 						= '*';
+$LANG['videoupload_video_file'] 					= 'Video File';
+$LANG['videoupload_animated_gif'] 					= 'Check this box for animated GIF';
+$LANG['videoupload_select_category'] 				= '~Choose One~';
+$LANG['videoupload_video_category_id'] 				= 'Video Category';
+$LANG['videoupload_video_title'] 					= 'Title';
+$LANG['videoupload_video_caption'] 					= 'Description';
+$LANG['videoupload_video_access_type'] 				= 'Type';
+$LANG['videoupload_public'] 						= 'Public: ';
+$LANG['videoupload_private'] 						= 'Private: ';
+$LANG['videoupload_upload_video_file'] 				= 'Continue Uploading';
+$LANG['videoupload_upload_external'] 				= 'Use External Video';
+$LANG['videoupload_upload_capture'] 				= 'Use Quick Capture';
+$LANG['videoupload_upload_video'] 					= 'Upload';
+$LANG['videoupload_upload_file'] 					= 'File Upload';
+$LANG['videoupload_upload_timer'] 					= 'Upload Timer: ';
+$LANG['videoupload_uploading_file'] 				= 'Uploading File...';
+$LANG['videoupload_upload_in_progress'] 			= 'Please be patient. Your file upload is in progress...';
+$LANG['videoupload_mulitiple_times'] 				= 'DO NOT PRESS SUBMIT MULTIPLE TIMES!!! Uploading your file may take several minutes, depending on your connection speed and the size of your file.';
+$LANG['videoupload_msg_success_uploaded_admin'] 	= 'Successfully uploaded, It will be displayed after the activation by admin';
+$LANG['videoupload_msg_success_uploaded_auto'] 		= 'Successfully uploaded, It will be displayed after finishing the internal process, it will take some time';
+$LANG['videoupload_videoupload_create_album'] 		= 'Create New Album';
+$LANG['videoupload_tags_msg'] 						= 'Enter the list of keywords, separated by spaces.
+			              							   Each keywords should be {tag_min_chars} to {tag_max_chars} characters.<br>
+		                        					   It helps to use relevant keywords so that others can find your video!';
+$LANG['videoupload_clickhere_upload'] 				= 'Click here to upload your file';
+$LANG['videoupload_close'] 							= 'Close';
+$LANG['videoupload_file_type'] 						= 'You can upload only following types...';
+$LANG['videoupload_file_size'] 						= 'Maximum upload size...';
+$LANG['videoupload_rules'] 							= 'Rules';
+$LANG['videoupload_err_javascript_msg'] 			= 'Fill out all the mandatory fields';
+$LANG['videoupload_select_a_category'] 				= 'Select a category that bests describes your video!';
+$LANG['videoupload_date_and_location'] 				= 'Date and location details';
+$LANG['videoupload_date_recorded'] 					= 'Date Recorded';
+$LANG['videoupload_optional'] 						= '(optional)';
+$LANG['videoupload_select_month'] 					= 'MM';
+$LANG['videoupload_select_day'] 					= 'DD';
+$LANG['videoupload_select_year'] 					= 'Year';
+$LANG['videoupload_location_recorded'] 				= 'Location Recorded';
+$LANG['videoupload_country_recorded'] 				= 'Country Recorded';
+$LANG['videoupload_select_country'] 				= '~ Select Country ~';
+$LANG['videoupload_zip_code_recorded'] 				= 'Zip code';
+$LANG['videoupload_sharing'] 						= 'Sharing';
+$LANG['videoupload_only_viewable_you'] 				= 'Only viewable by you and those you choose.';
+$LANG['videoupload_only_viewable_you_email']  		= 'Email this video and enable access now to the contact lists below.';
+$LANG['videoupload_share_your_video_world'] 		= 'Share your video with the world! (Recommended)';
+$LANG['videoupload_allow_comments_world'] 			= 'Allow comments to be added to your video';
+$LANG['videoupload_disallow_comments'] 				= 'Disallow comments to be added to your video';
+$LANG['videoupload_approval_comments'] 				= 'Approval required for all comments added to this video';
+$LANG['videoupload_allow_ratings'] 					= ' Allow ratings';
+$LANG['videoupload_allow_ratings_world'] 			= 'Allow people to rate your video';
+$LANG['videoupload_disallow_ratings'] 				= 'Disallow people from rating your video';
+$LANG['videoupload_disallow_ratings1'] 				= 'If you disable ratings, this video will no longer be eligible to appear on the list of "Top Rated" videos';
+$LANG['videoupload_video_category_id'] 				= 'Video Category';
+$LANG['videoupload_enabled'] 						= 'Enabled: ';
+$LANG['videoupload_disabled'] 						= 'Disabled: ';
+$LANG['videoupload_allow_embed'] 					= 'Allow external sites to embed this video';
+$LANG['videoupload_allow_embed_external'] 			= 'external sites may embed and play this video.';
+$LANG['videoupload_disallow_embed_external'] 		= 'external sites may NOT embed and play this video.';
+$LANG['videoupload_msg_failure_uploaded'] 			= 'Your Video has not properly uploaded.';
+$LANG['videoupload_msg_internal_problem'] 			= 'Sorry!, Errors found. Internal problem occured in your video.';
+$LANG['videoupload_video_youtube'] 					= 'Youtube url / External site flv url';
+$LANG['videoupload_video_other'] 					= 'Flv url of other site';
+$LANG['videoupload_normal_upload'] 					= 'Normal upload';
+$LANG['videoupload_external_url'] 					= 'External url';
+$LANG['videoupload_othersite'] 						= 'Other site flv url';
+$LANG['videoupload_flv_upload_type'] 				= 'Flv upload type';
+$LANG['videoupload_err_tip_invalid_url'] 			= 'Invalid url';
+$LANG['videoupload_err_tip_invalid_external_url'] 	= 'Invalid external url';
+$LANG['videoupload_video_category_type'] 			= 'Video Category Type';
+$LANG['videoupload_porn'] 							= 'Adult';
+$LANG['videoupload_general'] 						= 'Non-Adult';
+$LANG['videoupload_page1'] 							= '(Page1)';
+$LANG['videoupload_page2'] 							= '(Page2)';
+$LANG['videoupload_proble_uploader'] 				= 'if you are having problems with the uploader';
+$LANG['videoupload_click_here'] 					= 'Click here';
+$LANG['videoupload_video_sub_category_id']		 	= 'Sub Category';
+$LANG['videoupload_upload_another'] 				= '{click_here} to upload another video';
+$LANG['videoupload_reg_msg']						='RE: ';
+$LANG['videoupload_direct_capture_msg']				='Video Cam Direct Upload';
+$LANG['videoupload_upload_external_video'] 			= 'Upload External video';
+$LANG['videoupload_upload_external_embed_code'] 	= 'Upload External Embed Code';
+$LANG['videoupload_external_embed_code'] 			= 'External video embed code';
+$LANG['videoupload_embed_video_image'] 				= 'External Video Thumbnail Image File';
+$LANG['videoupload_externalsite_viewvideo_url'] 	= 'You can fetch video from Youtube, Google, or Myspace by entering the video URL';
+$LANG['videoupload_change_thumbnail']				='Change Thumbnail';
+$LANG['videoupload_video_tags']						='Tags';
+$LANG['videoupload_create_album']					='Create Album';
+$LANG['videoupload_allow_comments']					='Allow Comments';
+$LANG['videoupload_allow_ratings']					='Allow Ratings';
+$LANG['videoupload_err_javascript_invalid_file']	='Invalid File Format';
+$LANG['videoupload_cancel']							='Cancel';
+$LANG['videoupload_country']	='Country';
+$LANG['videoupload_sel_country']	='~~Select country~~';
+$LANG['videoupload_language']	='Language';
+$LANG['videoupload_sel_language']	='~~Select language~~';
+$LANG['videoupload_cancel']	='Cancel';
+$LANG['videoupload_activate'] = 'Activate';
+$LANG['videoupload_allow_response'] = 'Allow video response';
+$LANG['videoupload_allow_response_world'] = 'Allow people to respond to your video';
+$LANG['videoupload_notallow_response_world'] = 'Disallow people from responding to your video';
+$LANG['videoupload_kinda_response_world'] = 'Approval required for all responses to this video';
+$LANG['msg_success_uploaded_admin'] = 'Successfully uploaded, It will be displayed after the activation by admin';
+$LANG['videoupload_externalvideourl']='Upload external video';
+$LANG['videoupload_embed_playingtime']='Video Playing Time (Hr:Min:Sec) or (Min:Sec)';
+$LANG['videoupload_playingtime_format_error']='Playing time is not valid format';
+$LANG['embededcode_optimum_dimension_description']='Best optimum dimension of embeded player is {width}X{height}';
+$LANG['upload_image_type']						='Upload types';
+$LANG['videoupload_show_flash_uploader']		='to Upload via Flash Uploader';
+$LANG['videoupload_region_language']		= 'Region & Language';
+$LANG['videoupload_hide_other_option']		='Hide Other Video Upload settings';
+$LANG['videoupload_show_other_option']		='Show Other Video Upload settings';
+$LANG['other_video_upload_options']			='Other Upload Options';
+$LANG['videoupload_select_file']			='Select Video File';
+$LANG['videoupload_browse']					='Browse';
+$LANG['videoupload_note']					= 'Note';
+$LANG['videoupload_search_optmization']		= 'Search Optimization';
+$LANG['videoupload_page_title']				= 'Page Title';
+$LANG['videoupload_meta_keywords']			= 'Meta Keywords';
+$LANG['videoupload_meta_description']		= 'Meta Description';
+?>

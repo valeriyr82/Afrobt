@@ -1,0 +1,20 @@
+<PATH>
+	<SONGS>
+		<SONG  Path="songs/song2.mp3"  Title="O..." Artist="A.R.Rahman and M.I.A" Album="Slumdog millionaire" Plays = "631,583" showPlays="true" BuyUrl="http://url1.com" LyricsUrl="http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images.jpg" TargetUrl="http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="false" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank"/>
+       
+		<SONG  Path="songs/song3.mp3"  Title="Since U Been Gone..." Artist="A.R.Rahman " Album="Slumdog millionaire" Plays = "631,584" showPlays="false" BuyUrl="http://url1.com" LyricsUrl="http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl="http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank"/>
+	    
+		<!--SONG  Path="songs/song1.mp3"  Title="Since U Been Gone.." Artist="A.R.Rahman" Album="Slumdog millionaire"Plays = "631,585" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="false"/>
+		
+		<SONG  Path="songs/song2.mp3"  Title="Since U Been Gone..." Artist="A.R.Rahman" Album="Slumdog millionaire"Plays = "631,590" showPlays="false" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images3.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true"/>
+		
+		<SONG  Path="songs/song1.mp3"  Title="Since U Been Gone...." Artist="harrish - song two" Album="POP"Plays = "631,600" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true"/>
+		
+		<SONG  Path="songs/song1.mp3"  Title="Since U Been Gone.." Artist="harrish - song three" Album="Jazz" Plays = "631,605" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true"/>
+		
+		<SONG  Path="songs/song1.mp3"  Title="Since U Been Gone.10..." Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images3.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true"/-->
+	</SONGS>
+
+</PATH>
+
+

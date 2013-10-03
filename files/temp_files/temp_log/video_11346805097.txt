@@ -1,0 +1,6 @@
+September 5, 2012, 6:01 am
+Memory Limit : 
+Max execution time : 0
+max Input TIme : 60
+Post Max Size : 200M
+Upload Max size : 200M

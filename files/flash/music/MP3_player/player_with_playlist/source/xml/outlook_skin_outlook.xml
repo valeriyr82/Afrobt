@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<THEME>
+	<COLORS>
+			<!-- Bg colors here -->
+       		
+		<INSTANCE name="bgcolor" color="0x000000" alpha="1"/>
+		<INSTANCE name="playerbgcolor" color="0x6b6b6b" alpha="1"/>
+		<INSTANCE name="songsinfobg" color="0x131210" alpha="100"/>
+		<INSTANCE name="controlBg" color="0x2a2a2a" alpha="100"/>
+
+		<INSTANCE name="albumTitleBg" color="0x3a3b32" alpha="100"/>
+	    <INSTANCE name="songTitleBg" color="0x000000" alpha="100"/>
+
+		<INSTANCE name="playlistHeader" color="0x252420" alpha="100"/>
+		<INSTANCE name="playlistUnselectedSongsBg" color="0x2d2d2b" alpha="100"/>		
+		<INSTANCE name="playlistSelectedSongsBg" color="0x3F3F37" alpha="100"/>
+		<INSTANCE name="playListSongUnCheckedBgColor" color="0xffffff" alpha="5"/>
+
+		<INSTANCE name="lyricsBg" color="0x564d38" alpha="100"/>
+		<INSTANCE name="BuyTextBg" color="0x8a8536" alpha="100"/>
+		<INSTANCE name="controlBgBig" color="0x3b3b3b" alpha="100"/>
+		<INSTANCE name="NumberOfPlaysBg" color="0x4a4a4a" alpha="100"/>
+		
+
+		<INSTANCE name="InfoPanelBg" color="0x30312d" alpha="100"/>
+		<INSTANCE name="infoPanelsongTimeBg" color="0x221e15" alpha="100"/>
+		<INSTANCE name="closeButtonBg" color="0x414140" alpha="100"/>
+		<INSTANCE name="closeButtonBgBorder" color="0x545453" alpha="100"/>
+		<INSTANCE name="infoPanelbuyButtonBgBorder" color="0x8e7d15" alpha="100"/>
+		<INSTANCE name="infoPanelbuyButtonBg" color="0x746406" alpha="100"/>
+		<INSTANCE name="infoPanelLyricsButtonBgBorder" color="0x817f71" alpha="100"/>
+		<INSTANCE name="infoPanelLyricsButtonBg" color="0x3f3e3a" alpha="100"/>
+		
+		<INSTANCE name="infotopBgPanel" color="0x181915" alpha="100"/>
+		<INSTANCE name="infomiddleBgPanel" color="0x242424" alpha="100"/>
+		<INSTANCE name="infobottomBgPanel" color="0x252523" alpha="100"/>
+		
+
+			<!--  Border colors here -->  	
+
+		<INSTANCE name="imageBorder" color="0xffffff" alpha="100"/>
+		<INSTANCE name="playerbgcolorBorder" color="0xFF0000" alpha="100"/>
+		<INSTANCE name="songsinfobgBorder" color="0x444444" alpha="100"/>	
+		<INSTANCE name="infoPanelimageBorder" color="0x666666" alpha="100"/>
+		<INSTANCE name="controlBgSmallBorder" color="0x000000" alpha="100"/>
+		<INSTANCE name="controlBgBigBorder" color="0x000000" alpha="100"/>
+
+		
+			<!--  Button colors here -->
+
+        <INSTANCE name="playbutton" color="0xe52e60" alpha="100"/>	
+		<INSTANCE name="pausebutton" color="0xe52e60" alpha="100"/>		
+		<INSTANCE name="playbuttonArrow" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="pausebuttonLines" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="previousbutton" color="0x191919" alpha="100"/>
+		<INSTANCE name="previousbuttonStroke" color="0x000000" alpha="100"/>
+		<INSTANCE name="nextbuttonStroke" color="0x000000" alpha="100"/>
+		<INSTANCE name="nextbutton" color="0x191919" alpha="100"/>
+		<INSTANCE name="downloadbutton" color="0xFDBA63" alpha="100"/>	
+		<INSTANCE name="TimeSlash" color="0x4c4c4c" alpha="100"/>
+		<INSTANCE name="TimeBg" color="0x1a1a1a" alpha="100"/>
+		<INSTANCE name="TimeBdr" color="0x000000" alpha="100"/>
+
+
+			<!--  Knob colors here -->
+
+        <INSTANCE name="knobVolumeBg" color="0xcd7489" alpha="100"/>
+		<INSTANCE name="knobVolumeBdr" color="0x000000" alpha="100"/>
+		<INSTANCE name="knobSong" color="0xcd7489" alpha="100"/>
+		<INSTANCE name="knobSongBorder" color="0xFF0000" alpha="100"/>
+		
+		
+			<!--  Sound Track colors here -->
+
+		<INSTANCE name="volumeTrack_Max" color="0x671f37" alpha="100"/>
+        	<INSTANCE name="volumeTrack_Min" color="0x5d0d19" alpha="100"/>
+		
+			<!--  Mute colors here -->
+
+		<INSTANCE name="muteBtn" color="0xFFFFFF" alpha="100"/>
+
+			<!--  Repeat butttons colors here -->
+
+		<INSTANCE name="repeatOnButton" color="0x000000" alpha="100"/>
+		<INSTANCE name="repeatOffButton" color="0xFFFFFF" alpha="100"/>
+
+			<!--  Shuffle butttons colors here -->
+
+		<INSTANCE name="shuffleOnButton" color="0x000000" alpha="100"/>
+		<INSTANCE name="shuffleOffButton" color="0xFFFFFF" alpha="100"/>
+
+			<!--  Seek bar colors here -->
+
+       		<INSTANCE name="seekbarbg" color="0x000000" alpha="100"/>
+      		<INSTANCE name="songPlayed" color="0x4c202d" alpha="100"/>
+		<INSTANCE name="songLoaded" color="0x44252b" alpha="100"/>	
+
+		<INSTANCE name="playlistLinesHeader" color="0x444444" alpha="100"/>
+		<INSTANCE name="playlistLinesUnselectedSong" color="0x444444" alpha="100"/>
+		<INSTANCE name="playlistLinesSelectedSong" color="0x444444" alpha="100"/>
+		
+		<INSTANCE name="playListSeparatorColor" color="0x797979" alpha="100"/>
+
+		<INSTANCE name="playlistBorderUnselectedSong" color="0x444444" alpha="100"/>
+		<INSTANCE name="playlistBorderSelectedSong" color="0x444444" alpha="100"/>
+		
+
+			<!-- Text colors here -->
+
+		<INSTANCE name="unSelectedSongText" color="0xd3d3d3" alpha="100"/>
+        	<INSTANCE name="selectedSongText" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="playListHeaderText" color="0x000000" alpha="100"/>
+
+       		<INSTANCE name="runtimetextcolor" color="0xbdadb3" alpha="100"/>
+        	<INSTANCE name="totaltimetextcolor" color="0x7c7c7c" alpha="100"/>
+
+		
+		<INSTANCE name="songName" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="artistName" color="0xd1d1d1" alpha="100"/>
+		<INSTANCE name="albumNameSmall" color="0xd1d1d1" alpha="100"/>
+
+		<INSTANCE name="OnText" color="0xd1d1d1" alpha="100"/>
+		<INSTANCE name="ByText" color="0xd1d1d1" alpha="100"/>
+
+
+		<INSTANCE name="PlaysText" color="0x999999" alpha="100"/>
+		<INSTANCE name="NumberOfPlaysText" color="0xff4d94" alpha="100"/>
+		<INSTANCE name="NumberOfPlaysNumber" color="0xff4d94" alpha="100"/>
+		<INSTANCE name="NumberOfPlaysLetters" color="0x949494" alpha="100"/>
+
+		<INSTANCE name="downloadtextcolour" color="0x000000" alpha="100"/>
+		<INSTANCE name="lyricsTextcolour" color="0xd7c69f" alpha="100"/>
+
+		<INSTANCE name="currencyText" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="songCost" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="buyText" color="0xfdfbdc" alpha="100"/>
+
+		<INSTANCE name="closeButtonText" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="infoPanelSongTitleText" color="0x938a74" alpha="100"/>
+		<INSTANCE name="infoPanelArtistText" color="0x7e7b74" alpha="100"/>
+		<INSTANCE name="infoPanelAlbumText" color="0x63605a" alpha="100"/>
+		<INSTANCE name="infoPanelByText" color="0x66685f" alpha="100"/>
+		<INSTANCE name="infoPanelOnText" color="0x66685f" alpha="100"/>
+		<INSTANCE name="infoPanelsongDuration" color="0x77714d" alpha="100"/>
+		<INSTANCE name="infoPanelNumberOfPlaysText" color="0x9f8e22" alpha="100"/>
+		<INSTANCE name="infoPanelsongCostText" color="0xcccccc" alpha="100"/>		
+		<INSTANCE name="infoPanelbuyButtonText" color="0xFFFFFF" alpha="100"/>
+		<INSTANCE name="infoPaneLyricsButtonText" color="0xFFFFFF" alpha="100"/>	
+
+   </COLORS>
+</THEME>

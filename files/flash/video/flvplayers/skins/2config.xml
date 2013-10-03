@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+	<SETTINGS>
+		<PLAYER_SETTINGS Name="SelectedSkin" Value="skin/skin.swf"/>
+		<PLAYER_SETTINGS Name="SelectedLoader" Value="skin/loading.swf"/>
+		<PLAYER_SETTINGS Name="Protocol" Type="http" Value="" />
+		<PLAYER_SETTINGS Name="FLVPath" Value="../02.flv" ViewCountFile="viewCount.php?videoid=02" />
+		<PLAYER_SETTINGS Name="FLVList" HasVideoList="no" FlvListPath="videolists.xml" Looping="yes" RefreshList="yes" />
+		<PLAYER_SETTINGS Name="PlayList" Value="playlist.xml" MaximumLists="1"/>
+		<PLAYER_SETTINGS Name="Themes" Value="themes.xml"/>
+		<PLAYER_SETTINGS Name="LockAllControls" Value="false"/>
+		<PLAYER_SETTINGS Name="ShowShareButton" Value="true"/>
+		<PLAYER_SETTINGS Name="ShowReplyButton" Value="false"/>
+		<PLAYER_SETTINGS Name="InitVolume" Value="20"/>
+		<PLAYER_SETTINGS Name="AutoPlay" Value="true"/>
+		<PLAYER_SETTINGS Name="FirstFrameAs" Value="video" FrameAt="0" Url="images/vImage.jpg" Align="stretch"/>
+		<PLAYER_SETTINGS Name="FirstVidSize" Value="max" KeepAspectRatio="true"/>
+		<PLAYER_SETTINGS Name="FullScreenControls" Value="true"/>
+		<PLAYER_SETTINGS Name="ShowMiniShareButton" Value="false"/>
+		<PLAYER_SETTINGS Name="ShowMiniLogo" Value="false" Url="images/minilogo.swf"/>
+		<PLAYER_SETTINGS Name="TooltipEnabled" Value="true"/>
+		<PLAYER_SETTINGS Name="ShareVidzLink" Value="http://agriya.com/share.php" args="vt=vtitle,muid=vuid,id=12,etc"/>
+		<!-- args will passed separately with & symbol to the given php file -->
+		<PLAYER_SETTINGS Name="FullScreenLink" Function="" args="sample1.html"/>
+		<!-- If the 'Function' value is empty, the defauly fullscreen function will be fired -->
+		<PLAYER_SETTINGS Name="BufferTime" Value="3"/>
+		<PLAYER_SETTINGS Name="Logo" Value="false" Url="mylogo.png" Transparency="50"  RollOverTransparency="100" LogoPosition="RB" hspace="10" vspace="10" TargetUrl="http://www.agriya.com" Target="_blank" InnerScripts="no"/>		
+		<PLAYER_SETTINGS Name="External" Value="no" Url="http://agriya.com"  Target="_blank" />
+		<PLAYER_SETTINGS Name="TopUrl" Url="http://1755.btrll.com/ad/12988" TargetUrl="http://www.agriya.com" TargetWindow="_blank" Duration="6" Value="false" Type="ext" ImpressionUrl="yourphp?sgds" ClickCountUrl="yourphp?sgds"/>
+		<PLAYER_SETTINGS Name="TailUrl" Url="http://1755.btrll.com/ad/12988" TargetUrl="http://www.agriya1.com" TargetWindow="_blank" Duration="6" Value="false" Type="ext"  ImpressionUrl="yourphp?sgds" ClickCountUrl="yourphp?sgds"/>
+	</SETTINGS>
+	<LABELS>
+		<TEXT Name="Header" Value="Click here to join with these cool guys... and ger more fun here........." Enable="true" ShowAlways="false" Url="http://www.agriya.com" TargetWindow="" HeaderScroll="true" ScrollSpeed="10"/>
+		<TEXT Name="Share" Value="Share"/>
+		<TEXT Name="Reply" Value="Replay"/>
+		<TEXT Name="Buffer" Value="Buffering..."/>
+		<TEXT Name="Loading" Value="Loading....."/>
+		<TEXT Name="NextText" Value=">>Next" Enable="false"/>
+		<TEXT Name="ListAlign" Value="RTL" Enable="false"/>
+	</LABELS>
+	<TOOLTIP>
+		<TOOL Name="PlayButton" Value="Play"/>
+		<TOOL Name="PauseButton" Value="Pause"/>
+		<TOOL Name="VolumeButton" Value="Volume"/>
+		<TOOL Name="ShareVidz" Value="Share"/>
+		<TOOL Name="ReplyVideo" Value="Replay"/>
+		<TOOL Name="RewindButton" Value="Rewind"/>
+		<TOOL Name="MuteButton" Value="Mute"/>
+		<TOOL Name="FullScreen" Value="Full Screen"/>
+		<TOOL Name="UnMuteButton" Value="Unmute"/>
+		<TOOL Name="VideoSize" Value="Video Size"/>
+	</TOOLTIP>
+	<MSG>
+		<ERROR Name="SelectedSkin" Value=" is not available...swf "/>
+		<ERROR Name="PlayList" Value="The playlist xml not found ! "/>
+		<ERROR Name="FlvPath" Value="The FLV Paths is not valid or missing !"/>
+		<ERROR Name="FlvPathFile" Value="File not Found "/>
+	</MSG>
+</CONFIG>

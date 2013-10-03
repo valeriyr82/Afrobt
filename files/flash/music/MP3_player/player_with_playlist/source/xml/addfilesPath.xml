@@ -1,0 +1,12 @@
+<PATH>
+	
+	<MIDSONG>
+	     <SONG  Path="midsongs/mid1.mp3"    TargetUrl = "http://google.com" Target="_blank" />
+		  
+		 <SONG  Path="midsongs/mid2.mp3"    TargetUrl = "http://google.com" Target="_blank" />
+		 
+    </MIDSONG>
+
+</PATH>
+
+

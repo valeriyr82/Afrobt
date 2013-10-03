@@ -1,0 +1,28 @@
+<CONFIG>
+	<SETTINGS>
+		<PLAYER autoplay="false" />
+		<PLAYER toolTip="true" />
+	</SETTINGS>
+	<SKINS>
+		<SKIN Name="newskin " recorderPath="skins/newSkin.swf"  enabled="true"/>
+	</SKINS>
+	<LOGO Name = "logo" URL ="http://www.agriya.com/" Target="_blank"/>
+	<BY Name="By" Value="BY"/>
+    <ALBUM Name="onTheAlbum" Value="ON THE ALBUM"/>
+    <DOWNLOAD Name="Download" Value="download"/>
+	<PLAYS Name="Plays" Value="plays"/>
+	<INTERFACE>
+		
+		<TEXT  Tooltip="Play"  Label="Play" />
+		<TEXT  Tooltip="Pause"  Label="Pause" />
+		<TEXT  Tooltip="Repeat"  Label="Repeat On" />
+		<TEXT  Tooltip="RepeatOff"  Label="Repeat Off" />
+		<TEXT  Tooltip="Mute"  Label="Mute" />
+		<TEXT  Tooltip="UnMute"  Label="Un Mute" />
+		<TEXT  Tooltip="Download"  Label="Toggle Download"/>
+		<TEXT  Tooltip="Currenttime"  Label="Current time"/>
+		<TEXT  Tooltip="SongArtist"  Label="Song Artist"/>		
+		<TEXT  Tooltip="SongAlbum"  Label="Song Album"/>
+		<TEXT  Tooltip="SongTitle"  Label="Song Title"/>
+	</INTERFACE>
+</CONFIG>

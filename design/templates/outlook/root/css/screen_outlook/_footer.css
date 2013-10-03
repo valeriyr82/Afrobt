@@ -1,0 +1,88 @@
+/*------------------------- footer ------------------------------------------*/
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author        murugesan_042at09
+* @copyright     Copyright (c) 2009 {@link http://www.agriya.com Agriya Infoway}
+* @license         http://www.agriya.com Agriya Infoway Licence
+* @version         SVN: $Id: footer.css murugesan_042at09 $
+* @since         2009-06-10
+*/
+
+/* --------------------- footer starts --------------------- */
+#footer{
+    color:#cecece;
+    z-index:-1;
+    clear:both;
+    background-color:black;
+    padding-bottom: 150px;
+}
+    .clsFooterMidddleBG{
+    }
+        .clsFooterContentBG{
+        }
+            .clsFooterCenterBg{
+            }
+                .clsFooterRightBG{
+                }
+                    .clsFooterLeftBG{
+                    }
+                        .clsFooterContent{
+                            margin: 0 auto;
+                            width: 1022px;
+                            text-align: left;
+                        }
+                        .clsPopUpBodyBackground .clsFooterContent{
+                            width:auto;
+                        }
+                            .clsFooterContentList{
+                                overflow:hidden;
+                                background-color: #1A1A1A;
+                                padding: 20px 20px 40px 20px;
+                            }
+                            * html .clsFooterContentList{
+                                overflow:visble;
+                                height:1%;
+                            }
+                            .clsFooterContentList ul{
+                                width:170px;
+                                float:left;
+                                margin: 0px 26px 0 0px;
+                            }
+                            .clsFooterContentList ul li{
+                                margin-top: 5px;
+                            }
+                            .clsFooterContentList ul a:hover{
+                                color : #008EE8;
+                                text-decoration: underline;
+                            }
+                            .clsFooterContentList ul h2{
+                                display: block;
+                                font-family: "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+                                font-size: 12px;
+                                color: #666;
+                            }
+                                    .clsFooterContentList li a{
+                                        color: #AAA;
+                                        border: none;
+                                        text-decoration: none;
+                                        font:normal normal 12px "Lucida Grande", Arial, sans-serif;
+                                    } 
+        #selSubFooter{
+            display:none;
+        }
+            .clsCopyrightContent{
+                padding:15px 0 15px 0;
+                color:#222;
+                background-image: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#EBEBEB));
+                background-image: -webkit-linear-gradient(top, #F9F9F9, #EBEBEB);
+                background-image: -moz-linear-gradient(top, #F9F9F9, #EBEBEB);
+                background-image: -ms-linear-gradient(top, #F9F9F9, #EBEBEB);
+                background-image: -o-linear-gradient(top, #F9F9F9, #EBEBEB);
+                background-image: linear-gradient(top, #F9F9F9, #EBEBEB);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9F9F9', EndColorStr='#EBEBEB');
+            }
+                .clsCopyrightLogo{
+                    padding-left:15px;
+                }
+

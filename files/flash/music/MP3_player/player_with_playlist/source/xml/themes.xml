@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<THEME>
+	<COLORS>
+        <INSTANCE name="bgcolor" color="0x17282F" alpha="100"/>
+		<INSTANCE name="playerbgcolor" color="0x070D0F" alpha="100"/>
+        <INSTANCE name="playbutton" color="0xE32469" alpha="100"/>
+        <INSTANCE name="knob" color="0x0BCDFD" alpha="100"/>
+        <INSTANCE name="loaderclip" color="0x81B7CF" alpha="100"/>
+        <INSTANCE name="seekbarbg" color="0xFF0000" alpha="100"/>
+        <INSTANCE name="playingclip" color="0xCCCCCC" alpha="100"/>
+		<INSTANCE name="songsinfobg" color="0x111B1F" alpha="100"/>
+        <INSTANCE name="downloadbutton" color="0xcccccc" alpha="100"/>
+		<INSTANCE name="buttonIcons" color="0x050505" alpha="100"/>
+		<INSTANCE name="cdCoverbg" color="0x8FB0BF" alpha="100"/>
+        <INSTANCE name="titleBar" color="0x3B545F" alpha="100"/>
+        <INSTANCE name="playlistHeader" color="0x2C444F" alpha="100"/>
+		<INSTANCE name="clipbutton" color="0x17282F" alpha="100"/>
+		<INSTANCE name="clipchangebutton" color="0xF5722A" alpha="100"/>
+		<INSTANCE name="runClip" color="0x042D3F" alpha="100"/>
+		<INSTANCE name="repeatButton" color="0x00D4FF" alpha="100"/>
+        <!-- Timer texts -->
+		<INSTANCE name="cliptext" color="0x47798F" alpha="100"/>
+        <INSTANCE name="runClipText" color="0xFFFFFF" alpha="100"/>
+        <INSTANCE name="runtimetextcolor" color="0xFFFFFF" alpha="100"/>
+        <INSTANCE name="totaltimetextcolor" color="0xBFEBFF" alpha="100"/>
+		<INSTANCE name="songDetailtextcolor" color="0x999999" alpha="100"/>
+		<INSTANCE name="songTitletextcolor" color="0x999999" alpha="100"/>
+		<INSTANCE name="songInfotextcolour" color="0x00D4FF" alpha="100"/>
+        <INSTANCE name="downloadtextcolour" color="0x000000" alpha="100"/>
+   </COLORS>
+</THEME>

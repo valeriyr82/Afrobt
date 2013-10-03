@@ -1,0 +1,5 @@
+﻿<SETTINGS>
+	<SERVER path="rtmp://207.44.232.39/SOSample" />
+	<PHP uploadpath="q" deletepath="w" />
+	<STREAM name="myvideo" seconds="25" />
+</SETTINGS>

@@ -1,0 +1,75 @@
+<?php
+$LANG['musicplaylist_title'] = 'My Playlist';
+$LANG['musicplaylist_postby'] = 'By: ';
+$LANG['musicplaylist_plays'] = 'Plays: ';
+$LANG['musicplaylist_comments'] = 'Comments: ';
+$LANG['musicplaylist_rating'] = 'Rating: ';
+$LANG['musicplaylist_favorites'] = 'Favorites: ';
+$LANG['musicplaylist_featured'] = 'Featured: ';
+$LANG['musicplaylist_added'] = 'Added: ';
+$LANG['musicplaylist_tracks'] = 'Songs';
+$LANG['musicplaylist_track'] = 'Song';
+$LANG['musicplaylist_playall'] = 'Play all: ';
+$LANG['musicplaylist_no_records_found'] = 'No Records Found';
+$LANG['musicplaylist_playlist_title'] = 'Playlist title';
+$LANG['musicplaylist_createby'] = 'Create by';
+$LANG['musicplaylist_no_of_tracks'] = 'Number of tracks';
+$LANG['musicplaylist_no_of_plays'] = 'Number of Plays';
+$LANG['musicplaylist_search'] = 'Search';
+$LANG['musicplaylist_show_advanced_filters'] = 'Show Advanced Filters';
+$LANG['musicplaylist_hide_advanced_filters'] = 'Hide Advanced Filters';
+$LANG['musicplaylist_view_song'] = 'View song';
+$LANG['musicplaylist_song_list'] = 'Song list';
+$LANG['musicplaylist_more_info'] = 'More Info';
+$LANG['musicplaylist_short_by'] = 'Sort by: ';
+$LANG['musicplaylist_title_label'] = 'Title';
+$LANG['musicplaylist_song'] = 'Songs';
+$LANG['musicplaylist_rated_label'] = 'Rated: ';
+$LANG['musicplaylist_playallsong_helptips'] = 'Play all songs';
+$LANG['musicplaylist_stop_helptips'] = 'stop all songs';
+$LANG['musicplaylist_allsongdetail_helptips'] = 'Display all song information';
+$LANG['musicplaylist_tags_label'] = 'Tags: ';
+$LANG['musicplaylist_description_label'] = 'Description:';
+$LANG['musicplaylist_tagsmusic_title'] = 'Music Play list for "VAR_TAGS_NAME"';
+//Music playlist heading..
+$LANG['musicplaylist_heading_playlistnew'] = 'New playlist';
+$LANG['musicplaylist_heading_toprated'] = 'Top Rated';
+$LANG['musicplaylist_heading_mostrecommended'] = 'Most Recommended';
+$LANG['musicplaylist_heading_mostlistened'] = 'Most Listened';
+$LANG['musicplaylist_heading_mostviewed'] = 'Most Viewed';
+$LANG['musicplaylist_heading_mostdiscussed'] = 'Most Discussed';
+$LANG['musicplaylist_heading_mostfavorite'] = 'Most Favorite';
+$LANG['musicplaylist_heading_mostfeaturedmusiclist'] = 'Featured Playlist';
+$LANG['musicplaylist_heading_recentlyviewed'] = 'Recently Listened';
+$LANG['musicplaylist_heading_my_favorite'] = 'My Favorite Playlist';
+$LANG['musicplaylist_heading_my_featured'] = 'My Featured Playlist';
+$LANG['musicplaylist_heading_my_recently_viewed'] = 'My Recently Viewed';
+$LANG['musicplaylist_add_playlist'] = 'Add Playlist';
+
+
+//MUSIC PLAYLIST ADMIN SIDE LANGUAGE//
+$LANG['musicplaylist_manage_playlist'] = 'Manage Playlist';
+$LANG['musicplaylist_admin_view_song'] = 'View song';
+$LANG['musicplaylist_set_featured'] = 'Set as Featured';
+$LANG['musicplaylist_remove_featured'] = 'Removed as Featured';
+$LANG['musicplaylist_admin_set_featured'] = 'Are you sure you want to set this playlist as featured?';
+$LANG['musicplaylist_admin_remove_featured'] = 'Are you sure you want to remove this playlist as featured?';
+$LANG['musicplaylist_admin_songlist_id'] = 'ID';
+$LANG['musicplaylist_admin_songlist_songtitle'] = 'Song title';
+$LANG['musicplaylist_admin_songlist_norecords_found'] = 'No records found';
+$LANG['musicplaylist_admin_song_list'] = 'Song list';
+$LANG['musicplaylist_admin_conform_box'] = 'conformation box';
+$LANG['musicplaylist_delete_successfully'] = 'Successfully deleted';
+$LANG['musicplaylist_update_successfully'] = 'Successfully updated';
+$LANG['musicplaylist_manage_comment'] = 'Manage comment';
+$LANG['musicplaylist_manage_playlist_comment'] = 'Manage playlist comment';
+$LANG['musicplaylist_edit_label'] = 'Edit';
+$LANG['musicplaylist_create_playlist_label'] = 'Create playlist';
+$LANG['musicplaylist_private_label'] = 'Private';
+$LANG['musicplaylist_reset_search']	= 'Reset Filters';
+$LANG['musicplaylist_playall_label'] = 'Play all';
+$LANG['musicplaylist_image'] = 'Playlist Image';
+$LANG['musicplaylist_name'] = 'Playlist Name';
+$LANG['musicplaylist_totla_music'] = 'Total Music';
+$LANG['musicplaylist_user_action'] = 'User Action';
+?>

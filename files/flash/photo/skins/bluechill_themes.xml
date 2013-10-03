@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<THEMES>
+	<!-- Text-->
+	<PHOTO_SLIDE_SHOW font="Trebuchet MS" size="20" color="0xFFFFFF"/>
+	<BACK_TO font="Trebuchet MS" size="12" color="0x7c97a2"/>
+	<HOME font="Trebuchet MS" size="12" color="0xffffff"/>
+	<PREVIOUS font="Arial" size="11" color="0xffffff"/>
+	<NEXT font="Arial MS" size="11" color="0xffffff"/>
+	<CHECKBOX font="Trebuchet MS" size="12" color="0x93c4d8"/>
+	<OPTIONS_BUTTON_TEXT font="Trebuchet MS" size="12" color="0xb3de1d"/>
+	<OPTIONS_DETAILS_TEXT font="Trebuchet MS" size="12" color="0xb3de1d"/>
+	<SHOW_INFO_TEXT_LABELS font="Trebuchet MS" size="12" color="0x5f7882"/>
+	<SHOW_INFO_TEXT_VALUES font="Trebuchet MS" size="12" color="0x7c97a2"/>
+	<SHOW_INFO_TEXT_TITLE font="Trebuchet MS" size="14" color="0xFFFFFF"/>
+	<SHOW_INFO_BUTTON_TEXT font="Trebuchet MS" size="12" color="0xFFFFFF"/>
+	<HIDE_INFO_BUTTON_TEXT font="Trebuchet MS" size="12" color="0xFFFFFF"/>
+	<EXIT_TEXT font="Trebuchet MS" size="16" color="0xFFFFFF"/>
+	<EXIT_TEXT_MOUSE_OVER font="Trebuchet MS" size="16" color="0xCCCCCC"/>
+	<REPEAT_TEXT font="Trebuchet MS" size="16" color="0xFFFFFF"/>
+	<REPEAT_TEXT_MOUSE_OVER font="Trebuchet MS" size="16" color="0x33FFFF"/>
+</THEMES>

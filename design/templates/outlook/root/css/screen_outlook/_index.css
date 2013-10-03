@@ -1,0 +1,1062 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.agriya.com Agriya Infoway}
+* @license 		http://www.agriya.com Agriya Infoway Licence
+* @version 		SVN: $Id: header.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+
+#index #sideBar{
+	display:none;
+}
+#main{
+	margin:0;
+}
+
+/* vertical aligni starts */
+	.clsImageContainer{	
+		text-align:center; 
+		display:inline-block;
+		font-size:0px;
+	}
+		.clsImageContainer img{
+			vertical-align:middle;
+		}
+		
+	.clsImageBorder4{
+		background:#f9f9f9;
+		border:1px solid #1a3441;	
+	}
+		a.clsImageBorder4:hover{
+			border:1px solid #000;
+			cursor:pointer;
+		}
+	.clsImageBorder5{
+		background:#f9f9f9;
+		border:1px solid #eee;	
+	}
+		a.clsImageBorder5:hover{
+			border:1px solid #d7d7d7;
+			cursor:pointer;
+		}
+	.clsImageBorder6{
+		background:#f9f9f9;
+		border:1px solid #eee;	
+	}
+		a.clsImageBorder6:hover{
+			border:1px solid #d7d7d7;
+			cursor:pointer;
+		}
+	.clsImageBorder7{
+		background:#f9f9f9;
+		border:1px solid #eee;	
+	}
+		a.clsImageBorder7:hover{
+			border:1px solid #d7d7d7;
+			cursor:pointer;
+		}
+	
+	.cls368x277{	
+		width:370px;
+		height:279px;
+		line-height:277px;
+	}
+	.cls368x277, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:279px;
+	}
+	* html .cls368x277{	/* ie6 hack */
+		height:277px; 
+		width:372px;
+		font-size:251px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}
+	
+	.cls142x108{	
+		width:144px;
+		height:110px;
+		line-height:108px;
+	}
+	.cls142x108, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:110px;
+	}
+	* html .cls142x108{	/* ie6 hack */
+		height:112px; 
+		width:146px;
+		font-size:99px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}
+/* vertical aligni ends */
+
+/* Rounded corners */
+.tlcfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/tlc-featuredetails.gif) no-repeat;
+}
+.trcfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/trc-featuredetails.gif) no-repeat right top;
+}
+.blcfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/blc-featuredetails.gif) no-repeat left bottom;
+}
+.brcfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/brc-featuredetails.gif) no-repeat right bottom;
+}
+.tbfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/tb-featuredetails.gif) repeat-x;
+}
+.bbfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/bb-featuredetails.gif) repeat-x center bottom;
+}
+.rbfeaturedetails{
+	background:transparent url(http://cdn.afriville.com/images/index/rb-featuredetails.gif) repeat-y right top;
+}
+.lbfeaturedetails{
+	background:#304756 url(http://cdn.afriville.com/images/index/lb-featuredetails.gif) repeat-y left bottom;
+}
+
+
+.tlctags{
+	background:transparent url(http://cdn.afriville.com/images/index/tlc-tags.gif) no-repeat;
+}
+.trctags{
+	background:transparent url(http://cdn.afriville.com/images/index/trc-tags.gif) no-repeat right top;
+	padding:2px;
+}
+.blctags{
+	background:transparent url(http://cdn.afriville.com/images/index/blc-tags.gif) no-repeat left bottom;
+}
+.brctags{
+	background:transparent url(http://cdn.afriville.com/images/index/brc-tags.gif) no-repeat right bottom;
+}
+.tbtags{
+	background:transparent url(http://cdn.afriville.com/images/index/tb-tags.gif) repeat-x;
+}
+.bbtags{
+	background:transparent url(http://cdn.afriville.com/images/index/bb-tags.gif) repeat-x center bottom;
+}
+.rbtags{
+	background:transparent url(http://cdn.afriville.com/images/index/rb-tags.gif) repeat-y right top;
+}
+.lbtags{
+	background:#f7fcff url(http://cdn.afriville.com/images/index/lb-tags.gif) repeat-y left bottom;
+}
+
+
+.trcvideoblock{
+	/*background:transparent url(http://cdn.afriville.com/images/index/trc-video.gif) no-repeat right top; */
+	padding:7px 10px 20px 10px;
+}
+    .lbvideoblock{
+        border-bottom: 1px solid #D7D7D7;
+        background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;
+    }
+
+.trcmusicblock{
+	/*background:transparent url(http://cdn.afriville.com/images/index/trc-music.gif) no-repeat right top;*/
+	padding:7px 10px 17px 10px;
+}
+
+    .lbmusicblock{
+        border-bottom: 1px solid #D7D7D7;
+        background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;
+    }
+.trcphotoblock{
+	/*background:transparent url(http://cdn.afriville.com/images/index/trc-photo.gif) no-repeat right top;*/
+	padding:7px 10px 17px 10px;
+}
+
+    .lbphotoblock{
+        border-bottom: 1px solid #D7D7D7;
+        background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;
+    }
+
+.trcotherblock{
+/*	background:transparent url(http://cdn.afriville.com/images/index/trc-otherblocks.gif) no-repeat right top;*/
+	padding: 7px 10px 17px 10px;
+	min-height:145px;
+}
+
+* html .trcotherblock{
+	height:145px;
+}
+/*.tlcotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/tlc-otherblocks.gif) no-repeat;
+}
+.blcotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/blc-otherblocks.gif) no-repeat left bottom;
+}
+.brcotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/brc-otherblocks.gif) no-repeat right bottom;
+}
+.tbotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/tb-otherblocks.gif) repeat-x;
+}
+.bbotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/bb-otherblocks.gif) repeat-x center bottom;
+}
+.rbotherblock{
+	background:transparent url(http://cdn.afriville.com/images/index/rb-otherblocks.gif) repeat-y right top;
+} */
+.lbotherblock{
+/*	background:#fff url(http://cdn.afriville.com/images/index/lb-otherblocks.gif) repeat-y left bottom;*/
+	margin-bottom:22px;
+}
+
+
+.trcothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/trc-othercontent.gif) no-repeat right top;
+	padding:4px;
+}
+.tlcothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/tlc-othercontent.gif) no-repeat;
+}
+.blcothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/blc-othercontent.gif) no-repeat left bottom;
+}
+.brcothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/brc-othercontent.gif) no-repeat right bottom;
+}
+.tbothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/tb-othercontent.gif) repeat-x;
+}
+.bbothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/bb-othercontent.gif) repeat-x center bottom;
+}
+.rbothercontent{
+	background:transparent url(http://cdn.afriville.com/images/index/rb-othercontent.gif) repeat-y right top;
+}
+.lbothercontent{
+	background:#f9f9f9 url(http://cdn.afriville.com/images/index/lb-othercontent.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+
+.trcvideoinner{
+	padding:12px 0 0 12px;
+}
+
+.trcmusicinner{
+	padding:12px 0 0 12px;
+}
+
+
+.trcphotoinner{
+	padding:12px 0 0 12px;
+}
+
+
+* html .trcfeaturedetails,* html .trctags,* html .trcvideoblock,* html .trcmusicblock,* html .trcphotoblock,* html .trcvideoinner,
+* html .trcmusicinner,* html .trcothercontent,* html .trcotherblock,* html .trcotherblock{ height:1% }
+
+* html .lbfeaturedetails,* html .lbtags,* html .lbvideoblock,* html .lbmusicblock,* html .lbphotoblock,* html .lbvideoinner,
+* html .lbmusicinner,* html .lbphotoinner,* html .lbothercontent,* html .lbphotoinner{ width:100% }
+
+.lbfeaturedetails,.tlcfeaturedetails,.trcfeaturedetails,.lbtags,.tlctags,.trctags,.lbvideoblock,.tlcvideoblock,.trcvideoblock,
+.lbmusicblock,.tlcmusicblock,.trcmusicblock,.lbphotoblock,.tlcphotoblock,.trcphotoblock,.lbvideoinner,.tlcvideoinner,.trcvideoinner,
+.lbmusicinner,.tlcmusicinner,.trcmusicinner,.lbphotoinner,.tlcphotoinner,.trcphotoinner,.lbothercontent,.tlcothercontent,
+.trcothercontent,.lbotherblock,.tlcotherblock,.trcotherblock{ zoom:1 }
+/* Rounded corners ends*/
+
+
+/* Latest feature and whats going on section section */
+.clsLatestFeatureActivitiesSection{
+	padding:17px 10px 22px 10px;
+    background-color: white;
+    border-bottom:1px solid #D7D7D7;
+}
+/*    background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;*/
+	/* Latest feature section */
+	.clsLatestFeatureContainer{
+		float:left;
+		width:655px;
+		height:365px;
+		color:#9eb4bb;
+	}
+		.clsLatestFeatureContainer h2{
+			font:bold 14px/30px "Times New Roman", Times, serif;
+			margin:5px 0 5px 0;
+			color:#777;
+            padding-left:10px;
+            background-color:#E5E5E5;
+		}
+		.clsLatestFeatureContent{
+			width:585px;
+			height:281px;
+			overflow:hidden;
+		}
+			.clsLatestFeatureContent .clsImage{
+				width:372px;
+				float:left;
+			}
+            .clsLatestFeatureContent .clsImage div{
+                overflow: hidden;
+            }
+			.clsLatestFeatureContent .clsDetails{
+				width:207px;
+				float:right;
+			}
+			.clsTransparent{
+				width:366px;
+				height:35px;
+				background:url(http://cdn.afriville.com/images/index/bg-transparent.png) repeat;
+				overflow:hidden;
+				position:absolute;
+				margin:244px 0 0 3px;
+				color:#fff;
+			}
+			* html .clsTransparent{
+				background:none;
+				filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/templates/outlook/root/images/screen_outlook/index/bg-transparent.png',sizingMethod='scale');
+			}
+				.clsTransparent p{
+					padding-left:35px;
+					font:normal 13px/35px Arial, Helvetica, sans-serif;
+				}
+				.clsCustomContent .clsTransparent p{
+					padding-left:7px;
+				}
+				.clsCustomContent .clsTransparent p.clsRolloverMusic, .clsCustomContent .clsTransparent p.clsRolloverPhoto, .clsCustomContent .clsTransparent p.clsRolloverVideo{
+					padding-left:35px;
+				}				
+				p.clsRolloverPhoto{
+					background:url(http://cdn.afriville.com/images/index/icon-photodescription.gif) no-repeat 4px 5px;
+				}
+				p.clsRolloverVideo{
+					background:url(http://cdn.afriville.com/images/index/icon-videodescription.gif) no-repeat 4px 5px;
+				}
+				p.clsRolloverMusic{
+					background:url(http://cdn.afriville.com/images/index/icon-audiodescription.gif) no-repeat 4px 5px;
+				}
+				.clsFeatureDetailsContainer{
+					height:281px;
+					padding:0 10px;
+				}
+				.clsCustomContent .clsFeatureDetailsContainer{
+					height:271px;
+				}
+					.clsFeatureDetailsContent{
+						padding-top:7px;
+					}
+						.clsFeatureDetailsContent h3{
+							color:#d8e1e5;
+							font:bold 14px/20px Arial, Helvetica, sans-serif;
+						}
+						.clsFeatureDetailsContent p{
+							margin:5px 0;
+							line-height:17px;
+						}
+							.clsFeatureDetailsContent a{
+								text-decoration:none;
+								color:#ebebeb;
+							}
+							.clsFeatureDetailsContent a:hover{
+								color:#fff;
+							}
+						.clsFeatureDetailsContent p.clsUserName a{							
+							color:#49dcf9;
+						}
+						.clsFeatureDetailsContent .clsSeperator{
+							background:url(http://cdn.afriville.com/images/index/bg-seperator.gif) repeat-x left center;
+							height:11px;
+						}
+						.clsViewDetails{
+							color:#c3e4ef;
+						}
+							.clsViewDetails p{
+								line-height:13px;
+								margin-bottom:7px;
+							}
+								.clsViewDetails span{
+									display:block;
+								}
+								.clsViewDetails span.clsLeft{
+									float:left;
+									width:100px;
+									background:url(http://cdn.afriville.com/images/index/bg-colon.gif) no-repeat right center;
+								}
+								.clsViewDetails span.clsRight{
+									margin-left:110px;
+									font-weight:bold;
+								}
+								.clsFeatureRating{
+									padding:5px 0 7px 0;
+								}
+							.clsWatchMore{
+								text-align:right;
+								padding-top:8px;
+							}
+								.clsWatchMore a{
+									background:url(http://cdn.afriville.com/images/index/bg-arrow.gif) no-repeat left center;
+									padding-left:33px;
+									color:#fff;
+									text-decoration:underline;
+								}
+								.clsWatchMore a:hover{
+									text-decoration:none;
+								}
+						.clsIndexSingleSlide{
+							margin-left:35px;
+						}
+						.clsFeatureDetailsContent{
+							height:250px;
+						}
+						.clsCustomContent .clsFeatureDetailsContainer{
+							padding-top:10px;
+						}
+						.clsFeatureDetailsContent{
+							height:250px;
+						}
+						/* custom content scroll bar starts */				
+						.clsLatestFeatureContent .jScrollPaneDrag{
+							background:url(http://cdn.afriville.com/images/index/bg-morecontentscrollbar.gif) no-repeat center center;
+							 width:12px!important;
+						}
+						.clsLatestFeatureContent a.jScrollArrowUp{
+							 background:url(http://cdn.afriville.com/images/index/bg-scrollbartop.gif) no-repeat right top;
+							 height:9px!important;
+							 top:0;
+							 right:0 !important;	
+							 width:12px!important;
+							 position:absolute;
+							  z-index:99;
+						 }
+						 .clsLatestFeatureContent a.jScrollArrowDown{
+							 background:url(http://cdn.afriville.com/images/index/bg-scrollbarbottom.gif) no-repeat right top;
+							  height:9px!important;
+							  bottom:0;
+							  right:0 !important;
+							   width:12px!important;
+							  position:absolute;
+							  z-index:99;
+						 }
+						 .clsLatestFeatureContent .jScrollPaneTrack{
+							 background:url(http://cdn.afriville.com/images/index/bg-scrollbarcenter.gif) repeat-y center top;
+							 width:12px!important;
+							 right:0;		
+						} 	
+						/* custom content scroll bar ends */									
+				
+/* whats going on section stars */
+	.clsWhatsGoingOnContainer{
+		float:right;
+		width:336px;
+	}
+
+* html .trcwhatsgoing{height:1%}
+* html .lbwhatsgoing{
+	width:100%
+}
+.lbwhatsgoing,.tlcwhatsgoing{
+	zoom:1
+}
+.trcwhatsgoing{
+	padding:5px 10px 15px 5px;
+}
+
+.ClsImageBorderWhatsgoing{
+	background:#f9f9f9;
+	border:1px solid #efefef;	
+}
+	a.ClsImageBorderWhatsgoing:hover{
+		border:1px solid #D3D3D3;
+		cursor:pointer;
+	}
+	
+.Cls45x45{	/* used to centering the image in whatsgoingon container */
+	width:47px;
+	height:47px;
+	line-height:45px;
+}
+	.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px; 
+			width:49px;
+			font-size:42px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}	
+	
+.clsFloatLeft{
+	float:left;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsIndexWhatsGoingOnSection{
+	height:350px; 
+	overflow:hidden;
+}
+.clsIndexWhatsGoingOnSection .clsNoRecordsFound{
+	margin-top:135px;
+}
+	span.clsWhatgoingHeading{	
+		font: bold 14px/30px "Times New Roman", Times, serif;
+        color: #888;
+        padding-left: 10px;
+        display: block;
+        background-color: #E5E5E5;
+	}
+			.clsWhatsGoingUserDetails{
+				margin:9px 10px;
+			}
+			.clsWhatsGoingBg{
+				background:url(http://cdn.afriville.com/images/index/bg-whatsgoing.gif) repeat-x left bottom;
+				padding-bottom:9px;
+			}
+			.clsUserDetailsFriends{
+				margin-left:55px;
+			}
+			.clsWhatsGoingUser{
+				padding-bottom:5px;
+			}
+				.clsWhatsGoingUser a{
+					color:#ff005a;
+				}
+					.clsWhatsGoingUser a:hover{
+						color:#000;
+					}
+				.clsWhatsGoingUser span{
+					color:#888c8d;
+				}
+				.clsUserActivityWhtsgoing{
+					color:#333333;
+					width:240px;
+					height:34px;
+					overflow:hidden;
+					float:left;
+					padding:0;
+					line-height:17px;
+					word-wrap:break-word;
+				}
+					.clsUserActivityWhtsgoing img{
+						vertical-align:top;
+					}
+			.clsViewAllLinks{
+				text-align:right;
+				padding:0 10px;
+				font-weight:normal;
+			}
+/*---------------whats going on ends-----------------*/
+	
+/* index module blocks starts */
+	.clsBlockHeading{
+		font:bold 16px Arial, Helvetica, sans-serif;
+		float:left;
+        line-height: 30px;
+        padding-left: 8px;
+        text-transform: uppercase;
+		/*
+        width:400px;
+		color:#fff;
+		background:url(http://cdn.afriville.com/images/index/icon-videohead.gif) no-repeat left center;*/
+	}
+	.clsBlockHeadingDetails{
+		float:right;
+		width:550px;
+		font:normal 14px Arial, Helvetica, sans-serif;
+		text-align:right;
+		margin:5px 0 13px 0;
+	}
+		.clsBlockHeadingDetails span{
+			font:bold 14px Arial, Helvetica, sans-serif;
+		}
+		/*.clsBlockHeadingDetails a{
+			font:bold 14px Arial, Helvetica, sans-serif;
+            color: #008EE8;
+			text-decoration:none;
+		}
+        .clsBlockHeadingDetails a:hover{
+            text-decoration:underline;
+        }*/
+		.clsBlockHeadingDetails span.clsSeperator{
+			width:2px;
+			padding:0 12px 0 10px;
+			background:url(http://cdn.afriville.com/images/index/bg-titledetailsseperator.gif) no-repeat center center;
+		}
+	.clsPlayerBlock{
+		width:304px;
+		float:left;
+		overflow:hidden;
+	}
+		.clsPlayerBlock h3{
+			font:normal 15px/35px Arial, Helvetica, sans-serif;
+			width:300px;
+			height:35px;
+			overflow:hidden;
+		}
+		.clsIndexMusicBlockPlayer #flashcontetnt{
+			background:url(http://cdn.afriville.com/images/index/bg-musicplayer.gif) no-repeat left top;
+		}
+		.clsPlayerBlock .clsNoRecordsFound{
+			margin-top:131px;
+		}
+	.clsFlashContent2 {
+		height:250px;
+		padding:0;
+		margin:0;
+	}
+	.clsCarouselBlock{
+		width:670px;
+		margin-left:6px;
+		overflow:hidden;
+		float:left;
+	}
+	.clsCarouselBlockContent{
+		height:236px;
+		overflow:hidden;
+	}
+		.clsCarouselBlock h3{
+			font:normal 14px/35px Arial, Helvetica, sans-serif;
+		}
+			.clsCarouselListContent{
+				width:148px;
+				height:200px;
+				overflow:hidden;
+				margin:0 18px 0 0;
+				float:left;
+			}
+				.clsCarouselListImage{
+					margin-bottom:10px;
+				}
+					.clsCarouselListContent .clsTime{
+						position:absolute;
+						z-index:999;
+						color:#fff;
+						background:#32312e;
+						margin:96px 0 0 3px;
+					}
+					.clsZoom{
+						position:absolute;
+						z-index:999;
+						margin:0 0 0 135px;
+					}
+						.clsZoom a{
+							display:block;
+							background:url(http://cdn.afriville.com/images/index/icon-view.gif) no-repeat center center;
+							width:12px;
+							height:12px;
+						}
+				.clsCarouselListDetails p{
+					padding:2px 0;
+					color:#333;
+				}
+				* html .clsCarouselListDetails p{
+					padding:3px 0 0 0;
+				}
+				.clsCarouselListDetails a{
+					text-decoration:none;
+				}
+				.clsCarouselListDetails p.clsTitle a{
+					font:bold 13px/16px Arial, Helvetica, sans-serif;
+					color:#336699;
+					max-height:32px;
+					width:150px;
+					overflow:hidden;
+					display:block;
+					word-wrap:break-word;
+				}
+				* html .clsCarouselListDetails p.clsTitle a{
+					height:30px;
+				}
+				.clsCarouselListDetails p.clsTitle a:hover{
+					color:#000;
+				}
+				.clsMainIndexmusicBlock .clsCarouselListDetails p.clsTitle a{
+					color:#973564;
+				}
+				.clsMainIndexphotoBlock .clsCarouselListDetails p.clsTitle a{
+					color:#006665;
+				}
+				.clsCarouselListDetails p.clsName a{
+					color:#ff6699;
+				}
+				.clsCarouselListDetails p.clsViews span{
+					font-weight:bold;
+				}
+			.clsIndexPhotoContainer{
+				width:300px;
+				height:246px;
+				text-align:center; 
+				display:inline-block;
+				font-size:0px;
+				line-height:246px;
+				background:#fff;
+			}
+			* html .clsIndexPhotoContainer{	/* ie6 hack */
+				font-size:204px;	/* font size depends on the height (alternate style for vertical align middle) */
+			}
+				.clsIndexPhotoContainer img{
+					vertical-align:middle;
+				}
+				.clsIndexPhotoDetails{
+					width:298px;
+					height:41px;
+					overflow:hidden;
+					position:absolute;
+					margin:204px 0 0 1px;
+					background:url(http://cdn.afriville.com/images/index/bg-phototransparent.png) repeat;
+				}
+				* html .clsIndexPhotoDetails{
+					background:none;
+					filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='design/templates/outlook/root/images/screen_outlook/index/bg-phototransparent.png',sizingMethod='scale');
+				}
+					.clsIndexPhotoDetails .clsTitle{
+						padding:4px 0 0 10px;
+						width:275px;
+						height:19px;
+						overflow:hidden;
+					}
+					.clsIndexPhotoDetails .clsTitle,.clsIndexPhotoDetails .clsTitle a{
+						text-decoration:none;
+						font:normal 13px Arial, Helvetica, sans-serif;
+						color:#fff;
+					}
+						.clsIndexPhotoDetails .clsLeft{
+							width:160px;
+							float:left;
+							height:19px;
+							overflow:hidden;
+							color:#9a9a9a;
+							margin-left:10px;
+						}
+							.clsIndexPhotoDetails .clsLeft a{
+								text-decoration:none;
+								color:#ff6699;
+							}
+							.clsIndexPhotoDetails .clsLeft a:hover{
+								color:#fff;
+							}
+						.clsIndexPhotoDetails .clsRight{
+							width:100px;
+							float:right;
+							height:19px;
+							text-align:right;
+							overflow:hidden;
+							color:#9a9a9a;
+							margin-right:10px;
+						}
+				.clsCarouselBlockContent .clsNoRecordsFound{
+					margin:85px 12px 0 0;
+				}
+				.clsMainIndexphotoBlock .clsNoRecordsFound,.clsMainIndexmusicBlock .clsNoRecordsFound,
+				.clsMainIndexVideoBlock .clsNoRecordsFound{
+					margin:30px 10px 20px 10px;
+				}
+                .clsMainIndexVideoBlock > div:first-child,
+                .clsMainIndexmusicBlock > div:first-child,
+                .clsMainIndexphotoBlock > div:first-child {
+                    background-color:#E5E5E5;
+                    padding: 6px 15px 0 10px;
+                    color: #888;
+                }
+.clsNoRightMargin{
+	margin-right:0 !important;
+}
+/* Other blocks styles starts */
+.clsBodyBlock{
+    border-bottom: 1px solid #D7D7D7;
+    background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;
+}
+.clsBodyBlockNoBottom{
+    background: url(http://cdn.afriville.com/images/page_gradient.gif) repeat-x;
+    padding: 7px 10px 17px 10px;
+}
+.clsIndexBottomLeft{
+	float:left;
+	width:655px;
+}
+.clsIndexBottomRight{
+	float:right;
+	width:336px;
+}
+
+	.clsOtherTabs li, .clsOtherTabs li a, .clsOtherTabs li a span{
+		display:block;
+		float:left;
+		font:bold 14px/34px "Times New Roman", Times, serif;
+	}
+	.clsOtherTabs li{
+		/*background:url(http://cdn.afriville.com/images/index/bg-othertabs.gif) no-repeat right top;*/
+		padding:0 12px;
+	}
+	.clsOtherTabs li span.clsOuter{
+		padding:0 14px 4px 14px;
+	}
+        .clsIndexOtherBlocksContainer .clsJQCarouselTabs li a{
+            color: #444;
+            text-decoration: none;
+        }
+        .clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a{
+            color: #008EE8;
+        }
+        .clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a,
+        .clsIndexOtherBlocksContainer .clsJQCarouselTabs li:hover a {
+            text-decoration: underline;
+        }
+        /*
+		.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a, 
+		.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a, 
+		.clsIndexOtherBlocksContainer .clsJQCarouselTabs li:hover a{
+			background:url(http://cdn.afriville.com/images/index/bg-otherright.gif) no-repeat right top;
+		}
+			.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a span.clsOuter, 
+			.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a span.clsOuter, 
+			.clsIndexOtherBlocksContainer .clsJQCarouselTabs li:hover a span.clsOuter{
+				background:url(http://cdn.afriville.com/images/index/bg-otherleft.gif) no-repeat left top;
+			}
+				.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a span, 
+				.clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-hover a span,
+				.clsIndexOtherBlocksContainer .clsJQCarouselTabs li:hover a span{
+					color:#333;
+				}
+				.clsOtherTabs li span.clsArticles{
+					background:url(http://cdn.afriville.com/images/index/icon-articles.gif) no-repeat left 11px;
+					padding-left:19px;
+				}
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a span.clsArticles, 
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a span.clsArticles,
+					.clsOtherTabs li:hover span.clsArticles{
+						background-image:url(http://cdn.afriville.com/images/index/icon-articlesactive.gif);
+					}
+				.clsOtherTabs li span.clsBlogs{
+					background:url(http://cdn.afriville.com/images/index/icon-blogs.gif) no-repeat left 13px;
+					padding-left:16px;
+				}
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a span.clsBlogs, 
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a span.clsBlogs,
+					.clsOtherTabs li:hover span.clsBlogs{
+						background-image:url(http://cdn.afriville.com/images/index/icon-blogsactive.gif);
+					}
+				.clsOtherTabs li span.clsForums{
+					background:url(http://cdn.afriville.com/images/index/icon-forums.gif) no-repeat left 12px;
+					padding-left:24px;
+				}
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-active a span.clsForums, 
+					.clsIndexOtherBlocksContainer .clsJQCarouselTabs li.ui-state-hover a span.clsForums,
+					.clsOtherTabs li:hover span.clsForums{
+						background-image:url(http://cdn.afriville.com/images/index/icon-forumsactive.gif);
+					}
+			.clsOtherTabs li.clsLiFirst{
+				padding-left:0;
+			}
+        */
+		
+	/*  other block content styles starts */
+	.clsOtherBlocksContent .clsViewAll{
+		background:#faeef2;
+		text-align:right;
+		padding:5px 15px 5px 0;
+	}
+		.clsOtherBlocksContent .clsViewAll a{
+			text-decoration:none;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			color:#000;
+		}
+		.clsOtherBlocksContent .clsViewAll a:hover{
+			color:#069;
+		}
+		.clsOtherBlocksContent{
+			padding:10px 0 0 0;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		.clsIndexForumContent, .clsIndexBlogContent, .clsIndexArticleContent {
+			padding:0 10px;
+		}
+		.clsOtherBlockMainContent {
+			max-height:54px;
+			line-height:18px;
+			overflow:hidden;
+			margin-bottom:10px;
+			padding-left:1px;
+			font-size:12px;
+		}
+		* html .clsOtherBlockMainContent {
+			height:54px;
+		}
+		.clsOtherBlocksContent h3{
+			font:normal 15px/25px Arial, Helvetica, sans-serif;
+			background:url(http://cdn.afriville.com/images/index/bg-otherblockheadiing.gif) repeat-x left bottom;
+			padding-bottom:8px;
+			margin-bottom:5px;
+		}
+			.clsOtherBlockContentList{
+				padding-left:30px;
+				color:#5e5e5e;
+				margin:7px 0;
+			}
+			.clsArticleContent .clsOtherBlockContentList{
+				background:url(http://cdn.afriville.com/images/index/icon-articlestitle.gif) no-repeat left top;
+			}
+			.clsBlogContent .clsOtherBlockContentList{
+				background:url(http://cdn.afriville.com/images/index/icon-blogstitle.gif) no-repeat left top;
+			}
+			.clsForumContent .clsOtherBlockContentList{
+				background:url(http://cdn.afriville.com/images/index/icon-forumstitle.gif) no-repeat left top;
+			}
+			.clsOtherBlockContentList .clsPostedName{
+				font-size:12px;
+				padding-bottom:10px;
+			}
+			.clsOtherBlockContentList a{
+				text-decoration:none;
+			}
+				.clsOtherBlockContentList .clsTitle{
+					color:#646464;
+					font-size:11px;
+					padding-bottom:10px;
+				}
+					.clsOtherBlockContentList .clsTitle a{
+						color:#0199cb;
+						font-size:13px;
+						font-weight:bold;
+						padding-right:5px;
+					}
+					.clsOtherBlockContentList .clsTitle a:hover{
+						color:#000;
+					}
+				.clsOtherBlockContentList .clsMembersName{
+					float:left;
+					width:175px;
+					overflow:hidden;
+					line-height:20px;
+					color:#333;
+					margin-left:3px;
+				}
+					.clsOtherBlockContentList .clsMembersName a{
+						color:#ff6699;
+					}
+					.clsOtherBlockContentList .clsMembersName a:hover{
+						color:#000;
+					}
+					.clsOtherBlockContentList .clsMembersName img{
+						height:16px;
+						width:16px;
+						border:1px solid #eee;
+						color:#000;
+					}
+				.clsContentDetails{
+					margin-left:178px;
+				}
+					.clsContentDetails li{
+						float:left;
+						background:url(http://cdn.afriville.com/images/index/bg-contentdetailseperator.gif) no-repeat right center;
+						padding:0 7px;
+						line-height:20px;
+						caption-side:#333;
+					}
+					.clsContentDetails li.clsLiLast{
+						background:none;
+					}
+						.clsContentDetails li a{
+							font-weight:bold;
+							caption-side:#333;
+						}
+						.clsContentDetails li a:hover{
+							color:#f69
+						}
+						.clsContentDetails li span {
+							font-weight:bold;
+							color:#8c4d62;
+						}
+						
+/* Tags Styles */
+.clsTagsHeading{
+	height:30px;
+	margin-bottom:3px;
+}
+	.clsTagsLeftHead{
+		float:left;
+		width:150px;
+	}
+		.clsTagsLeftHead h3{
+			color:#222;
+			font:normal 14px/24px Arial;
+			padding-left:15px;
+		}
+.clsTagsRightTab {
+	margin-bottom:20px;
+	position:relative;
+}
+	.clsTagsRightTab ul{
+		position:absolute;
+		right:20px;
+		top:12px;
+	}
+		.clsTagsRightTab li{
+			float:left;
+			margin-right:15px;
+		}
+			.clsTagsRightTab li a{
+                color: #222;
+				font-size:11px;
+				display:block;
+				padding-bottom:3px;
+                text-decoration:none;
+			}
+            .clsTagsRightTab li.ui-state-hover a{
+                color: #008EE8;
+            }
+			.clsTagsRightTab li.ui-state-active a{
+                color: #008EE8;
+				background:url(http://cdn.afriville.com/images/index/tagstabbottomactiv.gif) no-repeat bottom center;
+			}
+.clsTagStyleGrey a {
+	color:grey;
+	padding-right:5px;
+	text-decoration:none;
+}
+	.clsTagStyleOrange a {
+		color:orange;
+		text-decoration:none;
+	}
+	.clsAudioTags{
+		line-height:18px;
+		padding:10px 4px;
+		text-align:justify;
+	}
+		.clsAudioTags a{
+			line-height:18px;
+			padding-right:10px;
+			color:#0198CF;
+			text-decoration:none;
+		}
+			.clsAudioTags a:hover{
+				text-decoration:underline;
+				color:#000;
+			}
+			.clsAudioTagStyleGreen a{
+				font:normal 14px Tahoma;
+				color:#973463;
+			}
+			.clsTagsAlternate a,.clsTagsAlternate{
+				color:#0099CB;
+				text-decoration:none;
+			}
+			.clsTagsDefalult a,.clsTagsDefalult{
+				color:#0099CB;
+				text-decoration:none;
+			}
+		.clsTagsContainer .clsNoRecordsFound{
+			margin-bottom:15px;
+		}
+		.clsTagsContainer .clsViewMore a{
+			border: 1px solid #D7D7D7;
+            padding: 4px 7px;
+            text-decoration: none;
+            float: right;
+            background: white;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px
+		}
+        .clsTagsContainer .clsViewMore a:hover {
+            text-decoration: none;
+            background: #008EE8;
+            border: 1px solid #008EE8;
+            color: white;
+        }
+
+/*--------- View all Links --------------*/
+.clsMainIndexViewAllLinks {
+	position:absolute;
+	margin:-28px 15px 0 560px 
+}

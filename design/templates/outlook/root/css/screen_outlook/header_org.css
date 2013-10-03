@@ -1,0 +1,1042 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author        murugesan_042at09
+* @copyright     Copyright (c) 2009 {@link http://www.agriya.com Agriya Infoway}
+* @license         http://www.agriya.com Agriya Infoway Licence
+* @version         SVN: $Id: header.css murugesan_042at09 $
+* @since         2009-06-10
+*/
+
+
+body{
+    color:#000;
+    font-size:11px;  /*-- Enables font size scaling in MSIE  --*/
+    font: normal normal 12px "Lucida Grande", Arial, sans-serif;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background:#fff url(http://cdn.afriville.com/images/header/bg-body.gif);
+}
+    #top,#header h2,#selSubFooter h2,.clsMainNavigation h3{        /*-- Nomensa Method to hide the content --*/
+        position:absolute;
+        left:-999em;
+        width:990em;
+    }
+    form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dt,dl,dd{
+        margin:0;
+        padding:0;
+    }
+    * {
+        margin:0;
+        padding:0;
+        font-size:11px;
+    }
+    li{
+        padding:0;
+        list-style:none;
+    }
+    a{
+        color:#008EE8;
+        text-decoration:none;
+        outline:none;
+        cursor:pointer;
+    }
+    a:hover{
+        color: #000;
+        text-decoration:underline;
+    }
+    img{
+        border:0;
+        vertical-align:top;
+    }
+    select,option{
+        padding-left:3px;
+    }
+    option{
+        padding-right:7px !important;
+    }
+    .clsBodyContent{
+        width:1020px;
+        margin:0 auto;
+        text-align:left;
+        border-left: 1px solid #CCC;
+        border-right: 1px solid #CCC;
+        padding: 0;
+        background-color: white; 
+    }
+    * html .clsBodyContent{
+        overflow:visible;
+    }
+    table{
+        border:0;
+        margin:0;
+    }
+
+/* ---------------------  Header starts --------------------- */
+.clsHeaderContainer{
+}
+.clsPopUpBodyBackground .clsHeaderContainer{
+    background-position:left top;
+}
+    .clsHeaderShadowImage{
+    }
+    .clsPopUpBodyBackground .clsHeaderShadowImage{
+        height:90px;
+    }
+        .clsHeaderBlock{
+            margin:0 auto;
+            width:1020px;
+        }
+
+/* logo starts */
+#header{
+}
+    .clsMainLogo{
+        width:100%;
+        margin:16px 0 0 0;
+        padding:0;
+        text-align:left;
+        background-color: #1A1A1A;
+        border-radius: 5px;
+        -moz-border-radius:5px;
+        -webkit-border-radius: 5px;
+    }
+    .clsMainLogo h1 {
+        float:left;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+    .clsMainLogo h1 a {
+        width: 157px;
+        height: 45px;
+        display: block;
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        position: relative;
+        z-index: 5000;
+    }
+    .clsMainLogo h1 a:hover {
+        background-position: 0px -45px;
+    }
+    .clsPopUpHeaderWidth .clsMainLogo{
+        margin:16px 0 0 25px;
+    }
+        .clsNoHeader{
+            margin-bottom:50px;
+        }
+/* logo ends */
+
+/* Top menu starts */
+.clsTopHeaderLinks{
+    margin-top:15px;
+    height:22px;
+    position:relative;
+    float: right;
+}
+    .clsTopWelcomeLinks{
+        float:right;
+        margin: 0 16px 0 0;
+    }
+        .clsTopWelcomeLinks li{
+            color:#cff5f6;
+        }
+        .clsTopWelcomeLinks a{
+            color:#7cf1ff;
+            text-decoration:none;
+        }
+        .clsTopWelcomeLinks a:hover{
+            color:#fff;
+        }
+            .clsBlock{
+                display:block;
+                float:left;
+/*                height:15px;
+                line-height:15px;*/
+            }
+            li.clsNewMail a{
+                background:url(http://cdn.afriville.com/images/header/icon-mailcount.gif) no-repeat left center;
+                padding-left:19px;
+            }
+            li.clsInviteFriendLink a{
+                width:15px;
+                height:15px;
+                background:url(http://cdn.afriville.com/images/header/icon-invitefriends.gif) no-repeat center center;
+            }
+            li a.clsDashboardLink{
+                width:16px;
+                height:15px;
+                background:url(http://cdn.afriville.com/images/header/icon-dashboard.gif) no-repeat center center;
+            }
+            li.clsBlock{
+                padding:0 9px;
+                
+                background:url(http://cdn.afriville.com/images/header/bg-topmenuseperator.gif) no-repeat center right;
+            }
+            /*.clsTopWelcomeLinks li.clsLiLast{
+                background:none;
+            }*/    
+                .clsUserStatusIcon{
+                    background:url(http://cdn.afriville.com/images/header/icon-status-select.gif) no-repeat center center;
+                    width:11px;
+                    margin-right:3px;
+                    cursor:pointer;
+                }
+                .status{
+                    background:url(http://cdn.afriville.com/images/header/bg-status.gif) repeat-x left top;
+                    padding:0 4px;
+                    color:#cff5fa;
+                }
+                    .status input{
+                        border:0;
+                    }
+                li.clsFacebookLogin {
+                    padding: 0;
+                    margin-left: 5px;
+                    background-image: none;
+                }
+                    li.clsFacebookLogin a{
+                        width: 24px;
+                        height: 24px;
+                        background:url(http://cdn.afriville.com/images/header/facebook.png) no-repeat left top;
+                    }
+                li.clsTwitterLogin {
+                    padding: 0;
+                    margin-left: 5px;
+                    background-image: none;
+                }
+                    li.clsTwitterLogin a{
+                        width: 24px;
+                        height: 24px;
+                        background:url(http://cdn.afriville.com/images/header/twitter.png) no-repeat left top;
+                    }
+                li.clsLoginLink{
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(#9C9C9C), to(#666));
+                    background-image: -webkit-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -moz-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -ms-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -o-linear-gradient(top, #9C9C9C, #666);
+                    background-image: linear-gradient(top, #9C9C9C, #666);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#9C9C9C', EndColorStr='#666666');
+                    padding:0;
+                    margin-left:5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                }
+                li.clsLoginLink:hover{
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(#5ab6f0), to(#008ee8));
+                    background-image: -webkit-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -moz-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -ms-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -o-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: linear-gradient(top, #5ab6f0, #008ee8);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5ab6f0', EndColorStr='#008ee8');
+                    
+                }
+                    li.clsLoginLink a{
+                        padding: 6px 8px 0 8px;
+                        height:19px;
+                        color:#fff;
+                        font-family: "Lucida Grande", Arial, Sans-serif;
+                    }
+                li.clsSignupLink{
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(#9C9C9C), to(#666));
+                    background-image: -webkit-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -moz-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -ms-linear-gradient(top, #9C9C9C, #666);
+                    background-image: -o-linear-gradient(top, #9C9C9C, #666);
+                    background-image: linear-gradient(top, #9C9C9C, #666);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#9C9C9C', EndColorStr='#666666');
+                    padding:0;
+                    margin-left:5px;
+                    -moz-border-radius: 5px;
+                    border-radius: 5px;
+                    -webkit-border-radius: 5px;
+                }
+                li.clsSignupLink:hover{
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(#5ab6f0), to(#008ee8));
+                    background-image: -webkit-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -moz-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -ms-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: -o-linear-gradient(top, #5ab6f0, #008ee8);
+                    background-image: linear-gradient(top, #5ab6f0, #008ee8);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5ab6f0', EndColorStr='#008ee8');
+                    
+                }
+                    li.clsSignupLink a{
+                        padding: 6px 8px 0 8px;
+                        height:19px;
+                        color:#fff;
+                        font-family: "Lucida Grande", Arial, Sans-serif;;
+                    }
+    /* Welcome Sub Menu Links */
+    .clsWelcomeSubMenuHead{
+        position:relative;
+    }
+        .clsWelcomeSubMenuLinksContainer{
+            padding-top:19px;
+        }
+            .clsWelcomeSubMenuLinks{
+                position:absolute;
+                display:none;
+                background:#136394;
+                border:1px solid #0f83c3;
+                text-align:left;
+                padding:2px 8px;
+                left:0;
+                width:150px;
+            }
+    /* Status Picker Sub Menu Links */
+    li.clsStatusPickerLink{
+        padding:0 0 0 3px;
+    }
+        #dynamicStatusChanger{
+            background:#136394;
+            width:160px;
+            border:1px solid #0f83c3;
+            margin:5px 0 0 -163px;
+            padding:3px 5px;
+        }
+            .clsStatusPicker li{
+                color:#cff5f6;
+                text-align:left;
+                padding:3px 0;
+            }
+            .clsStatusPicker li.clsCurrentStatus{
+                margin-top:2px;
+                background:#1770a7;
+                padding-left:3px;
+            }
+            .clsStatusPicker a{
+                color:#7cf1ff;
+                text-decoration:none;
+            }
+            .clsStatusPicker a:hover{
+                color:#fff;
+            }
+        /* template Switcher link */
+        li.clsTemplateSwitcherLink{
+            padding:0 5px 0 8px;
+            background:none;
+        }
+        li.clsLanguageSwitcherLink{
+            padding:0 5px 0 2px;
+            background:none;
+        }
+            .clsTemplateSwitcherContainer,.clsLanguageSwitcherContainer{
+                background:#136394;
+                width:160px;
+                border:1px solid #0f83c3;
+                margin:0 0 0 -143px;
+                position:absolute;
+                text-align:left;
+                display:none;
+                padding:0 5px 3px 5px;
+            }
+            .clsTemplateSwitcherContainer ul,.clsLanguageSwitcherContainer ul{
+            }
+            .clsLanguageSwitcherContainer{
+                margin:19px 0 0 -143px;
+            }
+                .clsLanguageSwitcherContainer li{
+                    padding:3px 0;
+                }
+                    .clsLanguageSwitcherContainer li img{
+                        margin-top:2px;
+                    }
+                .clsThemeHeading{
+                    font-weight:bold;
+                    color:#fff;
+                    margin-top:5px;
+                }
+                a.language{
+                    background:url(http://cdn.afriville.com/images/header/bg-language.gif) no-repeat left top;
+                    width:30px;
+                    height:19px;
+                    display:block;
+                    text-align:left;
+                }
+                a.language:hover{
+                }
+                a.language img{
+                    margin:2px;
+                    width:16px;
+                    height:14px;
+                }
+                    .clsStyleHeading img{
+                        margin-top:3px;
+                    }
+/* Top menu ends */
+
+/* clsHeaderContents starts */
+
+.clsHeaderContents{
+    float:right;
+    text-align:right;
+    width:700px;
+}    
+
+/* TopHeader starts */
+        .clsTopHeader{
+            clear:left;
+            height:65px;
+        }
+            .clsTopBanner{
+                float:left;
+                width:470px;
+                text-align:center;
+                overflow:hidden;
+                height:60px;
+            }
+    /* TopHeader ends */
+/* clsHeaderContents ends */
+
+/* style for dashboard */
+#selDashBoard{
+    position:absolute;
+    width:374px;
+    z-index:10500;
+    color:#333;
+    right:0;
+    top:25px;
+}
+.clsDashBoardHeading{
+    float:left;
+    width:90px;
+    text-align:left;
+    padding:5px 0 0 0;
+}
+.clsCloseButton{
+    float:right;
+    cursor:pointer;
+}
+    .clsCloseButton p{
+        background:url(http://cdn.afriville.com/images/header/icon-dashclose.gif) no-repeat right center;
+        padding:0.5em 2.5em 0.5em 0;
+        width:47px;
+        display:block;
+    }
+
+.clsHeadingClose{
+    height:25px;
+    zoom:1;
+    margin:0 0 0.2em 0;
+}
+* html .clsHeadingClose{
+    height:1%;
+    overflow:visible;
+}
+.classDashBoardLinks{
+    text-align:left;
+    text-transform:capitalize;
+    background:#E5EEF2;
+    border:1px solid #C5E6E9;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+    .classDashBoardLinks h3{
+        padding:6px 0 0 11px;
+    }
+    .clsDashLink{
+        overflow:auto;
+        zoom:1;
+        background:none !important;
+        margin-bottom:6px;
+    }
+    * html .clsDashLink{
+        height:1%;
+        overflow:visible;
+    }
+        .clsDashLink li{
+            padding:2px 5px 0px 11px;
+            margin:0;
+            float:left;
+        }
+            .clsDashLink li a{
+                color:#444444;
+            }
+            .clsDashLink li a:hover{
+                color:#4F707F;
+            }
+/* end of style for dashboard */
+
+/*--------------------- Header ends ---------------------*/
+
+/*--------------------- navigation and stats container --------------------- */
+.clsNavigationStatsContainer{
+    clear:both;
+    overflow:hidden;
+    margin: 16px -1px 0 -1px;
+    background-color: white;
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-width: 0;
+    
+    border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px;
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#F3F3F3));
+    background-image: -webkit-linear-gradient(top, #F9F9F9, #F3F3F3);
+    background-image: -moz-linear-gradient(top, #F9F9F9, #F3F3F3);
+    background-image: -ms-linear-gradient(top, #F9F9F9, #F3F3F3);
+    background-image: -o-linear-gradient(top, #F9F9F9, #F3F3F3);
+    background-image: linear-gradient(top, #F9F9F9, #F3F3F3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9F9F9', EndColorStr='#F3F3F3');
+}
+* html .clsNavigationStatsContainer{
+    overflow:visible;
+}
+.clsMainNavigation{
+    width:500px;
+    float:left;
+}
+    .clsMainNavLeft{
+        height:39px;
+    }
+    .clsMainNavRight{
+        height:39px;
+        border-bottom:1px solid #CCC;
+    }
+    .clsMainNavMiddle{
+        height:39px;
+    }
+    .clsMainNavigation ul{
+        float:left;    
+    }
+        .clsMenu li.clsMenuLiLink,.clsMenu li a.clsMenuALink,.clsMenu li span.clsMenuSpanLink{
+            display:block;
+            float:left;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .clsMenu li > a {
+            color : #888;
+        }
+        .clsMenu li > a:hover {
+            color : #000;
+        }
+        .clsMenu li.clsMenuLiLink{
+            border-bottom: 1px solid #CCC;
+            border-right: 1px solid #CCC;
+        }
+        .clsMenu li.clsMenuLiLink:hover{
+            background-color: white;
+        }
+            .clsMenu li.clsMenuLiLink .clsMenuALink{
+                height:39px;
+                line-height:39px;
+                text-decoration:none;
+                padding:0 20px 0 20px;
+            }
+            .clsMenu li.clsMenuLiLink a span.clsMenuSpanLink{
+                height:39px;
+                line-height:39px;
+                text-decoration:none;
+            }
+                
+        .clsMenu li.clsActiveMenu,.clsMenu li.clsActiveFirstMenu{
+            background-color: white;
+            border-bottom: 1px solid #FFF;
+        }
+        .clsMenu li.clsActiveMenu > a,
+        .clsMenu li.clsActiveMenu > a:hover {
+            color:#000;
+            font-weight: bold;
+        }
+        
+        .clsMainSubMenu{
+            float:left;
+            display:block;
+            padding:0 10px 0 0;
+            margin:0;
+            border-bottom: 1px solid #CCC;
+            border-right: 1px solid #CCC;
+            color:#888;
+        }
+        .clsMainSubMenu:hover{
+            background-color: white;
+            color: #000;
+        }
+            .clsMainSubMenu p{
+                height:39px;
+                line-height:39px;
+                text-decoration:none;
+                padding:0 20px 0 20px;
+                font-size:13px;
+                cursor:pointer;
+                background:url(http://cdn.afriville.com/images/header/arrow-dropdown.gif) no-repeat right center;
+            }
+            * html .clsMainSubMenu p{
+                width:60px;
+            }
+                li.clsHoverMenu.clsMainSubMenu,li.clsHoverMenu.clsMainSubMenu li.clsHoverMenu,li.clsHoverMenu.clsMainSubMenu li.clsHoverMenu a{
+                    background:none;
+                }
+                * html li.clsHoverMenu.clsMainSubMenu {
+                    background:none !important;
+                }
+            .clsMainSubMenuContainer{
+                background-color:#F3F3F3;
+                border:1px solid #CCC;
+                padding:0 7px 1px 7px;
+                margin-top:-6px;
+                position:absolute;
+                display:none;
+                text-align:left;
+                min-width:160px;
+                z-index:999;
+            }
+            * html .clsMainSubMenuContainer{
+                width:160px;
+            }
+            .clsMainSubMenuContainer li,.clsMainSubMenuContainer li.clsHoverMenu{
+                border-bottom: 1px dotted #CCC;
+            }
+            .clsMainSubMenuContainer li.clsLiLast {
+                border-bottom: none;
+            }
+            .clsMainSubMenuContainer li{
+                padding:1px 0 2px 0;
+            }
+            .clsMainSubMenuContainer li.clsLiLast{
+                background:none;
+            }
+                .clsMainSubMenuContainer a{
+                    font:normal 13px/28px Arial, Helvetica, sans-serif;
+                    color:#fff;
+                    padding-left:9px;
+                    display:block;
+                }
+                .clsMainSubMenuContainer a:hover{
+                    background-color:#FFF !important;
+                    color:#fff;
+                }
+/* --------------------- selNavigation ends --------------------- */
+
+/* --------------------- Header search and upload starts --------------------- */
+.clsSearchUploadContainer{
+    float:right;
+    width:200px;
+    padding-top:10px;
+}
+    .clsTopSearchContainer{
+        float:right;
+        width:206px;
+        height:25px;
+        background:url(http://cdn.afriville.com/images/header/bg-searchbox.gif) no-repeat center top;
+        margin-top:1px;
+    }
+        .clsTopSearchInput{
+            margin:4px 0 0 4px;
+            width:170px;
+            float:left;
+            text-align:left;
+        }
+            .clsTopSearchInput input{
+                background:transparent;
+                color:#e7e7e7;
+                width:150px;
+                border:0;
+                margin-top: 2px;
+            }
+        .clsTopSearchIcon{
+            width:25px;
+            height:20px;
+            margin:2px 2px 0 0;
+            float:right;
+        }
+            .clsTopSearchIcon a.clsSearchLink{
+                background:url(http://cdn.afriville.com/images/header/bg-searchicon.gif) no-repeat top right;
+                width:25px;
+                height:25px;
+                display:block;
+            }
+        
+        .clsTopSearch-top{
+            padding-top:1px;
+        }
+        .clsTopSearch-bottom{
+            padding-bottom:6px;
+        }
+        .clsTopSearch-middle{
+            background:url(http://cdn.afriville.com/images/header/bg-topsearchmiddle.gif) repeat-y left top;
+            padding:2px 10px 0 10px;
+        }
+        .clsTopSearchDropdownList{
+            display:none;
+            position:absolute;
+            width:206px;
+            text-align:left;
+            margin:-1px 0 0 -179px;
+            *margin:-4px 0 0 -204px;
+            z-index:999;
+        }
+        * html .clsTopSearchDropdownList{
+            margin:-4px 0 0 -202px;
+        }
+            .clsTopSearchDropdownList li{
+                background:url(http://cdn.afriville.com/images/header/bg-topsearchlist.gif) repeat-x left bottom;
+                padding:1px 0 2px 0;
+            }
+                .clsTopSearchDropdownList a{
+                    color:#0198cd;
+                    text-decoration:none;
+                    display:block;
+                    font:normal 11px/28px Arial, Helvetica, sans-serif;
+                }
+                .clsTopSearchDropdownList a:hover{
+                    color:#7af3fe;
+                    background-color:#032741;
+                }
+    .clsTopUpload{
+        width:92px;
+        float:right;
+        height:28px;
+        margin: 6px 10px 0 0px;
+        cursor: pointer;
+        border: 1px solid #CCC;
+        color:#008EE8;
+    }
+    .clsTopUpload:hover{
+        background-color:#008EE8;
+        color:#FFF;
+    }
+        .clsTopUploadLink{
+            font:bold 12px/28px Arial, Helvetica, sans-serif;
+        }
+            .clsTopUploadDropdownList{
+                display:none;
+                position:absolute;
+                margin-top:-4px;
+                z-index: 999;
+            }
+                .clsSearchDropDown{
+                    width:92px;
+                    padding-top:3px;
+                }
+                    .clsSearchDropDown ul{
+                        background-color: white;
+                        border: 1px solid #CCC;
+                    }
+                        .clsSearchDropDown ul li{
+                            padding:1px 0 2px 0;
+                            border-bottom: 1px #CCC dotted;
+                        }
+                            .clsSearchDropDown ul li a{
+                                color:#757575;
+                                text-decoration:none;
+                                font:normal 11px/28px Arial, Helvetica, sans-serif;
+                                display:block;
+                                padding:0 17px 0 5px;
+                            }
+                            .clsSearchDropDown ul li.clsmusicUploadLink a{
+                                background:url(http://cdn.afriville.com/images/header/icon-uploadmusic.gif) no-repeat right center;
+                            }
+                            .clsSearchDropDown ul li.clsvideoUploadLink a{
+                                background:url(http://cdn.afriville.com/images/header/icon-uploadvideo.gif) no-repeat right center;
+                            }
+                            .clsSearchDropDown ul li.clsphotoUploadLink a{
+                                background:url(http://cdn.afriville.com/images/header/icon-uploadphoto.gif) no-repeat right center;
+                            }
+                            .clsSearchDropDown ul li a:hover{
+                                color:#333;
+                                background-color:#f1f1f1;
+                            }
+/* --------------------- Header search and upload ends --------------------- */
+
+
+
+/* ----------------- Language and themes starts ----------------------*/
+.clsOverflow{
+    overflow:hidden;
+    zoom:1;
+}
+* html .clsOverflow{
+    overflow:visible;
+    height:1%;
+}
+
+/*--------   Top menu My profile link starts  --------*/
+    .clsMyProfileLink{
+        position: absolute;
+        background-color:#424242;
+        border:1px solid #979797 !important;
+        padding:5px;
+        width:170px !important;
+        margin-top:4px;
+    }
+    .clsMyProfileLink ul,#selMyProfileQuickLinks ul{
+        background:none;
+        margin:0;
+        padding:0;
+    }
+    .clsMyProfileLink ul li,#selMyProfileQuickLinks ul li{
+        text-align:left;
+        margin:0;
+        display:block;
+    }
+        .clsMyProfileLink ul li.clsActive a,#selMyProfileQuickLinks ul li.clsActive a{
+            color:#3EC5F5;
+        }
+
+/* Stats styles */
+.clsStatsContainer{
+    float:right;
+    height:25px;
+    overflow:hidden;
+    margin:8px 10px 0 0;
+    text-align:left;
+    width:300px;
+}
+    .clsStatsRight{
+        background:url(http://cdn.afriville.com/images/header/bg-statsright.gif) no-repeat right center;
+        height:25px;
+        float:right;
+        display:inline;
+    }
+    .clsStatsLeft{
+        background:url(http://cdn.afriville.com/images/header/bg-statsleft.gif) no-repeat left center;
+        height:25px;
+        display:inline;
+        float:left;
+    }
+        .clsStatsContent{
+            padding:0 15px 0 5px;
+        }
+            .clsStatsContent p{
+                float:left;
+                line-height:25px;
+                color:#a9bcc8;
+            }
+                .clsStatsContent p span{
+                    font-weight:bold;
+                }
+                .clsStatsContent p a{
+                    color:#a9bcc8;
+                    text-decoration:none;
+                }
+                .clsStatsContent p a:hover{
+                    color:#fff;
+                }
+            p.clsStatsHeading{
+                color:#fff;
+                font-weight:normal;
+                font-size:12px;
+                background:url(http://cdn.afriville.com/images/header/icon-stats.gif) no-repeat left center;
+                padding:0 10px 0 21px;
+            }
+/* Captcha textfield */            
+.clsCaptchaTextField{
+    visibility:hidden;
+}            
+
+/* popuplogin */
+* html .trc-popuplogin{height:1%}
+* html .lb-popuplogin{
+    width:100%
+}
+.lb-popuplogin,.tlc-popuplogin{
+    zoom:1
+}
+.trc-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/trc-login.gif) no-repeat right top;
+    padding:5px 5px 15px 10px;
+}
+#selDashBoard .trc-popuplogin{
+    padding:5px 15px 15px 15px;
+}
+.tlc-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/tlc-login.gif) no-repeat;
+}
+.blc-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/blc-login.gif) no-repeat left bottom;
+}
+.brc-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/brc-login.gif) no-repeat right bottom;
+}
+.tb-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/tb-login.gif) repeat-x;
+}
+.bb-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/bb-login.gif) repeat-x center bottom;
+}
+.rb-popuplogin{
+    background:transparent url(http://cdn.afriville.com/images/header/rb-login.gif) repeat-y right top;
+}
+.lb-popuplogin{
+    background:#f3fbfe url(http://cdn.afriville.com/images/header/lb-login.gif) repeat-y left bottom;
+}
+#selHeaderLoginPopup{
+    position:absolute;
+    right:0;
+    top:25px;
+    z-index:999;
+}
+    .clsPopUpLogin{
+        width:310px;
+        background:#f3fbfe;
+        z-index:9999;
+    }
+        .clsPopUpLogin .clsTextBox{
+            width:170px;
+        }
+        .clsPopUpLogin .clsMandatoryText{
+            width:245px;
+            float:left;
+            text-align:left;
+            line-height:25px;
+            color:#69747a;
+        }
+        .clsClosePopUpLogin{
+            float:right;
+            cursor:pointer;
+            width:11px;
+            height:20px;
+            background:url(http://cdn.afriville.com/images/header/icon-close.gif) no-repeat center center;
+        }
+        .clsPopUpLogin td{
+            padding:8px 5px !important;
+            color:#434341;
+            font-size:12px;
+        }
+        .clsPopUpLogin .ClsFormLabelCellDefault label{
+            font-size:12px;
+        }
+.clsLoginFormTable table{
+    padding:0;
+    margin-top:5px;
+    border-collapse:collapse;
+    width:100%;
+}
+    .clsLoginFormTable td{
+        padding:0;
+        margin:0;
+        padding:5px !important;
+        text-align:left;
+        vertical-align:top;
+    }
+        .clsPopUpLogin td{
+            padding:8px 5px !important;
+        }
+        .clsLoginFormTable td p,.clsLoginFormTable td span,.clsLoginFormTable td{
+            color:#61666a;
+        }
+        .clsLoginFormTable a{
+            text-decoration:none;
+        }
+        .clsLoginFormTable a:hover{
+            color:#000;
+        }
+        .clsLoginFormTable td p,.clsLoginTable td h3{
+            padding-bottom:3px;
+        }
+        .clsLoginFormTable th{
+            padding:4px 10px;
+            text-align:left;
+            border-top:1px solid #d4dcdf;
+            border-bottom:1px solid #d4dcdf;
+            background:#e7eff1;
+            color:#4b4c50;
+        }
+        .clsLoginFormTable h3 {
+            color:#4c4d51;
+        }
+        .clsLoginFormTable th a{
+            color:#000;
+        }
+
+.clsLoginSubmitRight{
+    background:url(http://cdn.afriville.com/images/header/bg-submitright.gif) no-repeat right top;
+    height:26px;
+    display:block;
+    float:left;
+    margin-right:10px;
+}
+    .clsLoginSubmitLeft{
+        background:url(http://cdn.afriville.com/images/header/bg-submitleft.gif) no-repeat left top;
+        padding:0 5px;
+        height:26px;
+        display:block;
+        float:left;
+    }
+        .clsLoginSubmitRight input{
+            background:none;
+            border:0;
+            padding-top:4px;
+            *padding-top:3px;
+            cursor:pointer;
+            font:bold 13px Arial, Helvetica, sans-serif;
+            color:#f4f4f4;
+        }
+/*-------------Banner Styles-----------*/
+.cls468pxTopBanner {
+    float:left;
+    width:468px;
+}
+    .cls468pxTopBanner .clsAddBanner {
+        width:468px;
+        height:60px;
+        margin:0 auto;
+        overflow:hidden;
+    }
+
+/*--------- Install Page -------------*/
+    .clsInstallPage .clsMainLogo{
+        float:none;
+        margin:0;
+    }
+        .clsInstallPage .clsHeaderContainer, .clsInstallPage .clsHeaderShadowImage{
+            height:140px;
+        }
+         .clsInstallPage .clsMainLogo {
+            margin:0;
+            padding:0;
+            float:left;
+        }
+            .clsInstallPage .clsMainLogo h1 {
+                margin-top:32px;
+            }
+    .clsInstallMainBar , #siteInfo .clsInstallMainBar{
+        width:1000px;
+        margin:0 auto;
+        text-align:left;
+    }
+        .clsInstallMainBar #main {
+            margin:0 358px 0 0;
+        }
+        * html .clsDropDownHide{
+            display:none;
+        }
+/*----------------------------- HEADER END --------------------------------------------*/
+
+/**
+* body commons
+*/
+/*----------------------------- BODY START ---------------------------------------------*/
+.cleardiv {
+    clear:both;
+    line-height: 0;
+}
+.viewmore {
+    border: 1px solid #D7D7D7;
+    padding: 4px 7px;
+    text-decoration: none;
+    float: right;
+    background: white;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.viewmore:hover {
+    text-decoration: none;
+    background: #008EE8;
+    border: 1px solid #008EE8;
+    color: white;
+}
+

@@ -1,0 +1,62 @@
+﻿<SETTINGS>
+	<!--<SERVER path="rtmp://66.228.129.35/SOSample"/>-->
+	 <SERVER path="rtmp://stemp.agriya.in/SOSample"/>  
+	<!-- Applicable for Audio Recorder also -->-->
+	<!-- <SERVER path="rtmp://localhost/SOSample" />
+	<!--SERVER path="rtmp://developmentmp5.agriya.in/SOSample" /-->
+	<!--<SERVER path="rtmp://192.168.1.227/SOSample" />-->
+
+	<!-- Applicable for Audio Recorder also -->
+	<!--PHP uploadpath="upload.php" deletepath="delete.php" jscall="true/false"/-->
+	<PHP uploadpath="upload.php" deletepath="delete.php" jscall="true"/>
+
+	<!-- Applicable for Audio Recorder also -->
+	<!--STREAM name="Video FileName" seconds="RecordingSeconds" /-->
+	<STREAM name="test_1" seconds="15" memberID="007" bookName="lucix fox" />
+
+	<!-- Best Settings are quality="100" width="160" height="120" framerate="15" bandwidth="0"/-->
+	<!-- If you change Any of these may or maynot Cause Frame Loss of Quality Loss. width and height will be selected Native modes of ur webcam / -->
+	<!-- Not Applicable for Audio Recorder -->
+<!-- 	<VIDEO quality="100" width="160" height="120" framerate="15" bandwidth="0"/> -->
+
+	<SKIN  url = "skin/skin.swf"/>
+
+	<PLAYERMODE value = "audio"/>
+
+	<TEXT_WAIT text="Connecting to Server... Please Wait. Recording Will begin soon"/>
+
+	<TEXT_DISCNT text="Server disconnected. Please Reload the Application to connect"/>
+
+	<TEXT_NOCAM text="No WebCam Installed in your Machine. Please Add a New WebCam to continue."/>
+
+	<TEXT_RECFIN text="Your Audio / video has been Recorded Successfully"/>
+
+	<TEXT_MIN text="Minimum recording Time should be more than 3 seconds" />
+
+	<TEXT_BUFFER text="Connected to server Recording will begin soon"/>
+
+	<STATUSTEST recording="recording" playing="playing" paused="paused" stopped="stopped"/>
+
+	<TOOLTIP>
+        <TOOL Name="PlayButton" Value="Play"/>
+		 <TOOL Name="Stop" Value="Stop"/>
+        <TOOL Name="PauseButton" Value="Pause"/>
+
+        <TOOL Name="VolumeButton" Value="Volume"/>
+       
+        <TOOL Name="ReplyVideo" Value="Replay"/>
+        <TOOL Name="Close" Value="Close"/>
+
+        <TOOL Name="Save" Value="Save"/>
+
+        <TOOL Name="SelectTools" Value="Select Tools"/>
+       
+
+        <TOOL Name="Record" Value="Record"/>
+
+		<TOOL Name="RecordAgain" Value="Record Again"/>
+
+	    <TOOL Name="Save" Value="Save"/>
+	    <TOOL Name="Close" Value="Close"/>
+    </TOOLTIP>
+</SETTINGS>

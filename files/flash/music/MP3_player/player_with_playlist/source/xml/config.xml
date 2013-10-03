@@ -1,0 +1,64 @@
+<CONFIG>
+	<SETTINGS>
+		<PLAYER autoplay="true" />
+		<PLAYER playListAutoplay="true" />
+		<PLAYER javascriptEnabled="true" />
+		<PLAYER callJSWhenPlayerReady="true" />
+		<PLAYER informCSSWhenPlayerReady="false" />
+		<PLAYER toolTip="true" />
+		<PLAYER musicForSale="true" />
+		<PLAYER inactiveInfoIconPath="images/info.jpg" />
+		<PLAYER activeInfoIconPath="images/infoactive.jpg" />
+		<PLAYER soundImagePath="" />
+		<PLAYER AutoScrollforTitle="true" />
+
+
+	</SETTINGS>
+	<SKINS>
+		<SKIN Name="newskin " recorderPath="skins/newSkin.swf"  enabled="true"/>
+	</SKINS>
+
+	<LOGO Name = "logo" URL ="http://www.agriya.com/" Target="_blank"/>
+	<CURRENCY Name = "dollar" Symbol="$" />
+	<BUYTEXT Name = "BuyText" Value="Buy" />
+	<LYRICSTEXT Name = "LyricsText" Value="Lyrics" />
+	
+	<BY Name="By" Value="BY"/>
+    <ALBUM Name="onTheAlbum" Value="ON"/>
+    <DOWNLOAD Name="Download" Value="download"/>
+	<PLAYS Name="Plays" Value="Plays"/>
+	
+	<SONGNUMBER Name="Number" Value="#"/>
+	<SONGTITLE Name="Title" Value="Title"/>
+	<SONGARTIST Name="Price" Value="Time"/>
+	<SONGALBUM Name="Buy" Value="Buy"/>
+	<SONGLENGTH Name="Info" Value="Info"/>
+
+	<INTERFACE>
+		!--- tooltip for Current player----
+		<TEXT  Tooltip="Next"  Label="Next"/>
+		<TEXT  Tooltip="Previous"  Label="Previous"/>
+		<TEXT  Tooltip="Play"  Label="Play"/>
+		<TEXT  Tooltip="Pause"  Label="Pause"/>
+		<TEXT  Tooltip="Repeat"  Label="Repeat Track"/>
+		<TEXT  Tooltip="RepeatOff"  Label="Repeat Off"/>
+		<TEXT  Tooltip="Shuffle"  Label="Turn Shuffle On"/>
+		<TEXT  Tooltip="ShuffleOff"  Label="Turn Shuffle Off"/>
+		<TEXT  Tooltip="Mute"  Label="Mute"/>
+		<TEXT  Tooltip="UnMute"  Label="Un Mute"/>
+        <TEXT  Tooltip="Checktrack"  Label="Toggle Check"/>
+        <TEXT  Tooltip="Download"  Label="Download"/>
+		<TEXT  Tooltip="Current time"  Label="Current time"/>
+		<TEXT  Tooltip="SongArtist"  Label="Song Artist"/>		
+		<TEXT  Tooltip="SongAlbum"  Label="Song Album"/>
+		<TEXT  Tooltip="SongTitle"  Label="Song Title"/>
+		<TEXT  Tooltip="SongLyrics"  Label="Song Lyrics"/>
+		<TEXT  Tooltip="BuySong"  Label="Buy Song"/>
+		<TEXT  Tooltip="SongInfo"  Label="Song Details"/>
+		<TEXT  Tooltip="Close"  Label="Close"/>
+		<TEXT  Tooltip="AlbumCost"  Label="AlbumCost"/>
+	</INTERFACE>
+	<SECURITYISSUE>
+		<PHP path="http://localhost/rabindranath/volume/version%202.0/withbrand/source/xml/getfilespath.php" />
+	</SECURITYISSUE>
+</CONFIG>

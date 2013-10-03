@@ -1,0 +1,186 @@
+<PATH>
+	<SONGS>
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid2.mp3" imageUrl = "adImages/image8.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+		
+				<SONG  Path="songs/song1.mp3"  Title="song 01" Artist="harrish - song three" Album="Jazz" Plays = "631,605456789" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="false" songDuration = "05:30" id="1" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_self" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="15"  TargetUrl="http://www.adobe.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+		
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid2.mp3" imageUrl = "adImages/image9.jpg" imageTime="5"  TargetUrl="http://www.google.com" TargetWindow="_blank"/>
+		
+				<SONG  Path="songs/song2.mp3"  Title="song 02" Artist="harrish - song three" Album="Jazz" Plays = "631,605" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="2" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid1.mp3" imageUrl = "adImages/image2.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_parent"/>
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image3.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+		
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="3" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image2.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song1.mp3"  Title="song 01" Artist="harrish - song three" Album="Jazz" Plays = "631,605" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="4" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+		
+				<SONG  Path="songs/song2.mp3"  Title="song 02" Artist="harrish - song three" Album="Jazz" Plays = "631,605" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images2.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="5" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+		
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="6" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+				
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="7" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="8" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="9" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="10" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="11" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="12" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="13" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="14" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+			<SONGSET>
+
+				<PREROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image1.jpg" imageTime="5"  TargetUrl="http://www.yahoo.com" TargetWindow="_blank"/>
+
+				<SONG  Path="songs/song3.mp3"  Title="song 03" Artist="A.R.Rahman" Album="Slumdog millionaire" Plays = "631,700" showPlays="true" BuyUrl="http://url1.com" LyricsUrl = "http://gmail1.com"  Rate="http://rateUrl.com" Comments="http://comments.h" ImageUrl="images/images1.jpg" TargetUrl = "http://google.com" Target="_blank" downloadUrl="http://google.com" DownloadTarget="_blank" showDownload="true" songDuration = "05:30" id="15" addUrl="add url..11111....." checkUrl="check url......1111" unCheckUrl="remove url.......1111........" Type="mp3" getTitlePath="http://mail.google.com" getTitleTarget="_blank" getArtistPath="http://yahoo.com" getArtistTarget="_blank" getAlbumPath="http://msn.com" getAlbumTarget="_blank" triggerUrl="test.php"/>
+
+				<MIDROLL  songUrl="midsongs/mid2.mp3" imageUrl = "images/image3.jpg" imageTime="10" TargetUrl="http://www.agriya.com" TargetWindow="_blank" StartTime="00:00:10"/> 
+
+				<POSTROLL songUrl="midsongs/mid3.mp3" imageUrl = "adImages/image4.jpg" imageTime="5"  TargetUrl="http://www.gotoandlearn.com" TargetWindow="_parent"/>
+
+			</SONGSET>
+
+
+	  	</SONGS>
+
+</PATH>
+
+

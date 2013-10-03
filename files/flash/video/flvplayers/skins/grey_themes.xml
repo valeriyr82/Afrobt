@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<THEME>
+	<COLORS>
+			<INSTANCE name="playbutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="stopbutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="knob" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="loaderbg" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="loaderclip" color="0xCCEBFF" alpha="100"/>
+			<INSTANCE name="playingclip" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="volumeknob" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="volumeclip" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="volumebg" color="0x9AD7FE" alpha="100"/>
+			<INSTANCE name="controlsbg" color="0xCCEBFF" alpha="100"/>
+			<INSTANCE name="timerbg " color="0x445533" alpha="100"/>
+			<INSTANCE name="resizebutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="fullscreenbutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="sharebutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="nextclip" color="0xCCEBFF" alpha="100"/>
+			<INSTANCE name="headerclip" color="0xCCEBFF" alpha="100"/>
+			<INSTANCE name="telltofreindbutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="replybutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="autostartbutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="vidimagebutton" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="listholder" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="nextbuttonborder" color="0xFFFFFF" alpha="100"/>
+			<INSTANCE name="nextbuttoncircle" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="nextlistbuttoncolor" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="prevlistbuttoncolor" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="buffertextcolor" color="0x02A901" alpha="100"/>
+			<!-- Button texts -->
+			<INSTANCE name="replytextcolor" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="sharetextcolor" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="sharebtntextcolor" color="0xFFFFFF" alpha="100"/>
+			<INSTANCE name="nextbtntextcolor" color="0x8B8B8B" alpha="100"/>
+			<!-- Timer texts -->
+			<INSTANCE name="runtimetextcolor" color="0xFFFFFF" alpha="100"/>
+			<INSTANCE name="totaltimetextcolor" color="0xFFFFFF" alpha="100"/>
+			<!-- TOOL TIP SETTINGS -->
+			<INSTANCE name="linecolor" color="0xFFFFFF" alpha="100"/>
+			<INSTANCE name="fillcolor" color="0x8B8B8B" alpha="100"/>
+			<INSTANCE name="textcolor" color="0xFFFFFF" alpha="100"/>
+	</COLORS>
+</THEME>

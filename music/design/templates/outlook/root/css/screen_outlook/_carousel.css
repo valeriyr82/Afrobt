@@ -1,0 +1,280 @@
+/* Index Music Block Carousel starts*/
+.clsIndexAudioContainer, .clsIndexFearuredAlbum{
+	height:242px;
+}
+.clsIndexTopChart{
+	height:285px;
+}
+.clsLoadingBackground{
+	background: transparent url(http://cdn.afriville.com/images/carousel/loading-small.gif) 50% 50% no-repeat;
+}
+
+.clsIndexAudioContainer .clsCarouselContainer{
+	height:192px;
+	width:630px;
+	padding:15px 0 0 3px;
+}
+	.clsIndexAudioContainer .ClsMusicListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexAudioContainer .carouselMusicList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 630px;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  630px;
+		height: 192px;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(http://cdn.afriville.com/images/carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-item {
+		width: 630px;
+		height: 160px;
+		padding:0;
+		margin:0;
+		/*border-bottom:1px solid #F6EAEE;*/
+	}
+	/*  Horizontal Buttons */
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:560px;
+		top:169px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+	
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+	
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+	
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 169px;
+		left: 7px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexAudioContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexAudioContainer .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Music Block Carousel ends*/
+
+
+
+
+
+
+
+
+/* Index Featured Album Block Carousel starts*/
+
+.clsIndexFearuredAlbum .clsCarouselContainer{
+	height:192px;
+	width:630px;
+	padding:15px 0 0 3px;
+}
+	.clsIndexFearuredAlbum .ClsMusicListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexFearuredAlbum .carouselMusicList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 630px;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  630px;
+		height: 192px;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(http://cdn.afriville.com/images/carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-item {
+		width: 630px;
+		height: 160px;
+		padding:0;
+		margin:0;
+		border-bottom:1px solid #F6EAEE;
+	}
+	/*  Horizontal Buttons */
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:560px;
+		top:169px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+	
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+	
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+	
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 169px;
+		left: 7px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexFearuredAlbum .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexFearuredAlbum .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Featured Album Block Carousel ends*/
+
+
+
+/* Index clsIndexTopChart Carousel starts*/
+	.clsIndexTopChart .clsJQCarouselHead h3{
+		color: #888;
+        background-color: #E5E5E5;
+        font: bold 17px/34px Arial, Times, serif;
+        padding-left: 10px;
+	}
+
+.clsIndexTopChart .clsCarouselContainer{
+	height:250px;
+	width:636px;
+	padding:15px 0 0 3px;
+}
+	.clsIndexTopChart .ClsMusicListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexTopChart .carouselMusicList{
+		width: 636px;
+		height: 250px;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 636px;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  636px;
+		height: 250px;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(http://cdn.afriville.com/images/carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-item {
+		width: 636px;
+		height: 220px;
+		padding:0;
+		margin:0;
+	}
+	/*  Horizontal Buttons */
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:560px;
+		top:227px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+	
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+	
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+	
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 227px;
+		left: 12px;
+		width: 23px;
+		height: 14px;
+		cursor: pointer;
+		background: transparent url(http://cdn.afriville.com/images/carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexTopChart .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexTopChart .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index clsIndexTopChart Carousel ends*/

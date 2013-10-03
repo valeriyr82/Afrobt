@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<THEME>
+	<COLORS>
+<INSTANCE name="bgcolor" color="0x000000" alpha="100"/>
+<INSTANCE name="playbutton" color="0x000000" alpha="100"/>
+<INSTANCE name="knob" color="0x000000" alpha="100"/>
+<INSTANCE name="loaderclip" color="0x333333" alpha="100"/>
+<INSTANCE name="seekbarbg" color="0x000000" alpha="100"/>
+<INSTANCE name="playingclip" color="0x0F4477" alpha="100"/>
+<INSTANCE name="controlsbg" color="0x333333" alpha="100"/>
+<INSTANCE name="timerbg" color="0x000000" alpha="100"/>
+<INSTANCE name="resizebutton" color="0x000000" alpha="100"/>
+<INSTANCE name="fullscreenbutton" color="0x000000" alpha="100"/>
+<INSTANCE name="sharebutton" color="0x000000" alpha="100"/>
+<INSTANCE name="nextclip" color="0xCCEBFF" alpha="100"/>
+<INSTANCE name="headerclip" color="0x0099FF" alpha="30"/>
+<INSTANCE name="replybutton" color="0xA90101" alpha="100"/>
+<INSTANCE name="listholder" color="0x999999" alpha="50"/>
+<INSTANCE name="nextbutton" color="0x0099FF" alpha="40"/>
+<INSTANCE name="nextlistbuttoncolor" color="0x0099FF" alpha="100"/>
+<INSTANCE name="prevlistbuttoncolor" color="0x0099FF" alpha="100"/>
+<!-- Button texts -->
+<INSTANCE name="replytextcolor" color="0xffffff" alpha="100"/>
+<INSTANCE name="sharetextcolor" color="0xffffff" alpha="100"/>
+<INSTANCE name="sharebtntextcolor" color="0xffffff" alpha="100"/>
+<INSTANCE name="nextbtntextcolor" color="0xffffff" alpha="100"/>
+<INSTANCE name="headertext" color="0x0099FF" alpha="100"/>
+<INSTANCE name="playingclip" color="0x1C4A57" alpha="100"/>
+<!-- Timer texts -->
+<INSTANCE name="runtimetextcolor" color="0xFFFFFF" alpha="100"/>
+<INSTANCE name="totaltimetextcolor" color="0xF73E67" alpha="100"/>
+<!-- TOOL TIP SETTINGS -->
+<INSTANCE name="linecolor" color="0xFFFFFF" alpha="100"/>
+<INSTANCE name="fillcolor" color="0x0099FF" alpha="100"/>
+<INSTANCE name="textcolor" color="0xFFFFFF" alpha="100"/>
+<LISTTEXT ratingfillcolor="0xff6600" color="0xffffff" font="Verdana" size="12" bold="true" italic="false" underline="false"/>
+<!--	List Item Thems -->
+<INSTANCE name="videosizemenu" color="0x000000" alpha="100"/>
+<INSTANCE name="navigationbuttons" color="0x0F4477" alpha="100"/>
+</COLORS>
+</THEME>

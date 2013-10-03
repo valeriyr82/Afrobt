@@ -1,0 +1,39 @@
+﻿<SKIN>
+	
+	<!--for stage BG-->
+
+	<STAGE color="0xD3D3DF"/>
+
+	<!--for video BG-->
+	<VEDIOBG color="0x000000"/>
+
+	<!--for PANEL BG-->
+	<PANELBG color="0x000000"/>
+
+	<!---for BUTTON BG-->
+	<BTNBG color="0x000000"/>
+
+	<!--for BUTTON SYMBOOLS-->
+	<BTNSYMB color="0xFFFFFF"/>
+
+
+<!--for speaker symbool and anim base -->
+	<VOLTHEME color="0x000000"/>
+
+	<!--for speaker base-->
+	<VOLBASE color="0xD4D4DC"/>
+
+	<!---for PROGRESS BAR -->
+	<PROGRSSBAR color="0x990000"/>
+
+<!--for SEL OPTION BG & SAVE BTN BG-->
+	<OPTIONBG color="0x333333"/>
+
+	<!--for control panel text-->
+	<PANELTXT color="0xFFFFFF"/>
+
+	<!--for SEL OPTION COLOR-->
+	<OPTIONTXT color="0xCCCCCC"/>
+
+
+</SKIN>

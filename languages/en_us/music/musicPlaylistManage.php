@@ -1,0 +1,34 @@
+<?php
+$LANG['musicplaylist_title'] = 'Manage Playlist';
+$LANG['musicplaylist_name'] = 'Name';
+$LANG['musicplaylist_description'] = 'Description';
+$LANG['musicplaylist_tags'] = 'Tags';
+$LANG['musicplaylist_create_palylist'] = 'Create Playlist';
+$LANG['musicplaylist_tip_compulsory']	='Required';
+$LANG['musicplaylist_invalid_size']		='Playlist name must be VAR_MIN-VAR_MAX characters';
+$LANG['musicplaylist_err_tip_alreay_exists']	='Playlist already exists';
+$LANG['musicplaylist_create_failure'] = 'Sorry Errors found';
+$LANG['musicplaylist_err_tip_invalid_tag']	='Playlist tag must have VAR_MIN-VAR_MAX character in each words';
+$LANG['musicplaylist_invalid_id']	='Invalid playlist ID';
+$LANG['musicplaylist_created_successfully'] = 'Successfully created';
+$LANG['musicplaylist_update_successfully'] = 'Successfully updated';
+$LANG['musicplaylist_delete_successfully'] = 'Successfully deleted';
+$LANG['musicplaylist_createlist'] = 'Create Playlist';
+$LANG['musicplaylist_image'] = 'Playlist Image';
+$LANG['musicplaylist_name'] = 'Playlist Name';
+$LANG['musicplaylist_totla_music'] = 'Total Music';
+$LANG['musicplaylist_user_action'] = 'User Action';
+$LANG['musicplaylist_manage_music'] = 'Manage Music';
+$LANG['musicplaylist_delete_playlist'] = 'Delete Playlist';
+$LANG['musicplaylist_edit_playlist'] = 'Edit Playlist';
+$LANG['musicplaylist_delete'] = 'Delete';
+$LANG['musicplaylist_delete_confirmation'] = 'Are you sure you want to delete the Playlist?';
+$LANG['musicplaylist_multi_delete_confirmation'] = 'Are you sure you want to delete all selected Playlists?';
+$LANG['musicplaylist_err_tip_select_titles'] = 'Please select atleast one Music playlist from the list';
+$LANG['musicplaylist_confirm_tbl_summary'] = 'Playlist information';
+$LANG['musicplaylist_no_records_found'] = 'No records found';
+$LANG['musicplaylist_update_playlist_label'] = 'Update playlist';
+$LANG['musicplaylist_Cancel_label'] = 'Cancel';
+$LANG['musicplaylist_createplaylist_label'] = 'Create Playlist';
+$LANG['musicplaylist_organize_playlist'] = 'Organize Playlist';
+?>

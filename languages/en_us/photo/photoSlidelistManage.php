@@ -1,0 +1,34 @@
+<?php
+$LANG['photoslidelist_title'] = 'Manage Slidelist';
+$LANG['photoslidelist_name'] = 'Name';
+$LANG['photoslidelist_description'] = 'Description';
+$LANG['photoslidelist_tags'] = 'Tags';
+$LANG['photoslidelist_create_palylist'] = 'Create Slidelist';
+$LANG['photoslidelist_tip_compulsory']	='Required';
+$LANG['photoslidelist_invalid_size']		='Slidelist name must be {min}-{max} characters';
+$LANG['photoslidelist_err_tip_alreay_exists']	='Slidelist already exists';
+$LANG['photoslidelist_create_failure'] = 'Sorry Errors found';
+$LANG['photoslidelist_err_tip_invalid_tag']	='Slidelist tag must have {min}- {max} character in each words';
+$LANG['photoslidelist_invalid_id']	='Invalid slidelist ID';
+$LANG['photoslidelist_created_successfully'] = 'Successfully created';
+$LANG['photoslidelist_update_successfully'] = 'Successfully updated';
+$LANG['photoslidelist_delete_successfully'] = 'Successfully deleted';
+$LANG['photoslidelist_createlist'] = 'Create Slidelist';
+$LANG['photoslidelist_image'] = 'Slidelist Image';
+$LANG['photoslidelist_name'] = 'Slidelist Name';
+$LANG['photoslidelist_total_photo'] = 'Total Photos: ';
+$LANG['photoslidelist_user_action'] = 'User Action';
+$LANG['photoslidelist_manage_photo'] = 'Manage Photos';
+$LANG['photoslidelist_delete_playlist'] = 'Delete Slidelist';
+$LANG['photoslidelist_edit_playlist'] = 'Edit Slidelist';
+$LANG['photoslidelist_delete'] = 'Delete';
+$LANG['photoslidelist_delete_confirmation'] = 'Are you sure you want to delete the Slidelist?';
+$LANG['photoslidelist_multi_delete_confirmation'] = 'Are you sure you want to delete all selected Slidelist?';
+$LANG['photoslidelist_err_tip_select_titles'] = 'Select photo slidelist';
+$LANG['photoslidelist_confirm_tbl_summary'] = 'Slidelist information';
+$LANG['photoslidelist_no_records_found'] = 'No records found';
+$LANG['photoslidelist_update_playlist_label'] = 'Update Slidelist';
+$LANG['photoslidelist_Cancel_label'] = 'Cancel';
+$LANG['photoslidelist_createplaylist_label'] = 'Create Slidelist';
+$LANG['photoslidelist_organize_playlist'] = 'Organize Slidelist';
+?>
